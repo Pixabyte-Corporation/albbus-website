@@ -1,9 +1,12 @@
 "use client";
-import { useState } from "react";
+import style from "./Home.module.scss"
 
 export default function Home(){
-
     return(
-        <h1>Hello Team Wizard Squad</h1>
+        <section className={style.container}>
+            <p className={style.title}><span>T</span>U SOCIO EN TECNOLOGÍA</p>
+            <p className={style.description}>Maximiza tus resultados con tecnología de punta</p>
+            <button type="submit" className={style.btnContactUs}>Contáctanos</button>
+        </section>
     )
 }
