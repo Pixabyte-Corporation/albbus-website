@@ -1,0 +1,35 @@
+.descriptionCont{
+    display: grid;
+    grid-template-columns: 55vw 45vw;
+    grid-template-rows: 70vh 17.5vh;
+    align-items: center;
+    justify-items: center;
+}
+.create{
+    display: flex;
+    margin-left: 6em;
+    margin-right: 4em;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-size: 3em;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    color: #17003B;
+}
+.albbusCont{
+    display: flex;
+    justify-content: space-around;
+}
+.solutions{
+    grid-column: 1/3;
+    color: #17003B;
+    font-size: 1.75em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    font-style: italic;
+}
