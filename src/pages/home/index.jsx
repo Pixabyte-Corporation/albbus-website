@@ -10,10 +10,6 @@ export default function Home(){
             <p className={style.description}>Maximiza tus resultados con tecnología de punta</p>
             <button type="submit" className={style.btnContactUs}>Contáctanos</button>
         </section>
-
-        <section/>
-            <Carateristicas/>
-        <section/>
         </>
     )
 }
