@@ -1,0 +1,145 @@
+.container {
+  width: 420px;
+  height: 548px;
+  border-radius: 10px;
+  border: 1px solid rgba(140, 222, 220, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  position: absolute;
+  left: 880px;
+  top: 100px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 500;
+  padding: 20px 200px 15px 0;
+}
+
+.line {
+  width: 90%;
+  height: 0px;
+  color: rgba(140, 222, 220, 0.5019607843);
+  margin-left: 22px;
+  margin-bottom: 10px;
+}
+
+.inputform {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas con igual ancho */
+  gap: 5px; /* Espacio entre las columnas */
+  margin-bottom: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.description {
+  color: #8cdedc;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.column p {
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.input1 {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 370px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 85%;
+  margin-left: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.input2 {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 69%;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.input3 {
+  padding-left: 35px;
+  box-sizing: border-box;
+  width: 20%;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fff;
+  margin-left: 20px;
+}
+
+.enviar {
+  display: flex;
+  width: 370px;
+  padding: 10px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #011929;
+  color: #fff;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.inputRow {
+  display: grid;
+}
+
+.Inputlada {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  top: 63%;
+  left: 30px;
+  transform: translateY(-50%);
+  background: none;
+}
+
+.num {
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-left: 20px;
+}
