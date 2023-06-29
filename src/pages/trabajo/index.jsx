@@ -1,3 +1,4 @@
+import CardsWork from "@/components/cardsWork";
 import Navbar from "@/components/navbar";
 
 export default function Trabajo() {
@@ -5,7 +6,7 @@ export default function Trabajo() {
       <>
         <Navbar />
         <main>
-          
+          <CardsWork />
         </main>
       </>
     );
