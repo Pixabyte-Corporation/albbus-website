@@ -1,5 +1,5 @@
 import Navbar from "@/components/navbar";
-import OurWork from "@/components/ourWork/OurWork";
+import OurWork from "@/components/ourWork";
 
 export default function Trabajo() {
     return (
