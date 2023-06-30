@@ -1,0 +1,64 @@
+.conteinercardtest {
+  width: 697px;
+  height: 248px;
+  flex-shrink: 0;
+}
+
+.cardtest {
+  width: 697px;
+  height: 248px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #8cdedc;
+  background: rgba(140, 222, 220, 0.2);
+  backdrop-filter: blur(7.5px);
+  position: absolute;
+  top: 16%;
+  left: 4%;
+}
+
+.textsintax {
+  display: flex;
+  width: 565px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-top: 40px;
+  margin-left: 40px;
+  color: #8cdedc;
+  font-size: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subsintax {
+  color: #2df6fe;
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2%;
+  margin-left: 80%;
+}
+
+.rightline {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 100%;
+  top: 35%;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("../../assets/icons/right-line.svg");
+  z-index: 2;
+}
