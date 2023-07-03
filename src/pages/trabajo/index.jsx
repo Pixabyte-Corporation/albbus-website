@@ -1,3 +1,4 @@
+import AlbbusDescription from "@/components/AlbbusDescription";
 
 import Navbar from "@/components/navbar";
 import OurWork from "@/components/ourWork";
@@ -9,6 +10,7 @@ export default function Trabajo() {
       <>
         <Navbar />
         <main>
+          <AlbbusDescription/>
           <OurWork/>
           <CardsWork />
           <Testimonials />
