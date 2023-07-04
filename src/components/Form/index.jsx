@@ -10,10 +10,11 @@ export default function Formcontact() {
       <h1 className={style.title}>Contáctanos</h1>
       <hr className={style.line}></hr>
       <p className={style.description}>¿Qué quieres solucionar?</p>
+      <form>
       <input
         className={style.input1}
         type="text"
-        placeholder="ingresa tu nombre"
+        placeholder=""
       />
       <div className={style.inputform}>
         <div className={style.column}>
@@ -55,7 +56,7 @@ export default function Formcontact() {
       <div className={style.inputRow}>
         <span className={style.Inputlada}>
           <Image className={style.icon} src={lada} alt="lada" />
-          <input className={style.input3} type="text" placeholder="+52" />
+          <input className={style.input3} type="tel" pattern="[0-9]+" placeholder="+52"  />
           <input
             className={style.input2}
             type="text"
@@ -63,6 +64,7 @@ export default function Formcontact() {
           />
         </span>
       </div>
+      </form>
       <button className={style.enviar} type="button">
         Enviar
       </button>
