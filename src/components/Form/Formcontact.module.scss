@@ -112,15 +112,19 @@
 }
 
 .input::placeholder {
-  font-size: 16px; 
+  font-family: Montserrat;
+  font-weight: 200;
 }
 
 .input3::placeholder {
-  font-size: 16px; 
+  font-family: Montserrat;
+  font-weight: 500;
 }
 
 .input2::placeholder {
-  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+
 }
 
 .enviar {
@@ -131,6 +135,7 @@
   align-items: center;
   gap: 10px;
   border-radius: 10px;
+  border: #011929;
   background: #011929;
   color: #fff;
   font-size: 16px;
@@ -154,12 +159,13 @@
 .Inputlada {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .icon {
   display: block;
   position: absolute;
-  top: 61%;
+  top: 63%;
   left: 30px;
   transform: translateY(-50%);
   background: none;
@@ -171,4 +177,5 @@
   font-family: Montserrat;
   font-weight: 500;
   margin-left: 20px;
+  margin-bottom: 8px;
 }

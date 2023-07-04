@@ -40,7 +40,7 @@ export default function Formcontact() {
           <input
             className={style.input}
             type="text"
-            placeholder="Ingresa tu correo electrónico"
+            placeholder="Ingresa tu nombre"
           />
         </div>
         <div className={style.column}>
@@ -48,11 +48,11 @@ export default function Formcontact() {
           <input
             className={style.input}
             type="text"
-            placeholder="Nombre de la empresa"
+            placeholder="Ingresa el nombre"
           />
         </div>
       </div>
-      <p className={style.num}>Numero Celular</p>
+      <p className={style.num}>Número Celular</p>
       <div className={style.inputRow}>
         <span className={style.Inputlada}>
           <Image className={style.icon} src={lada} alt="lada" />
@@ -60,7 +60,7 @@ export default function Formcontact() {
           <input
             className={style.input2}
             type="text"
-            placeholder="Número de celular"
+            placeholder="Número celular 10 dígitos"
           />
         </span>
       </div>
