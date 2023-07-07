@@ -1,20 +1,20 @@
 import style from "./AlbbusDescription.module.scss";
 import Image from "next/legacy/image";
-import a from "@/assets/Images/VectorA.png"
-import l from "@/assets/Images/VectorL.png"
-import b from "@/assets/Images/VectorB.png"
-import b2 from "@/assets/Images/VectorB2.png"
-import u from "@/assets/Images/VectorU.png"
-import s from "@/assets/Images/VectorS.png"
-import aVector from "@/assets/Images/VectorAImage.png"
-import ceo from "@/assets/Images/CEO.png"
+import a from "@/assets/images/VectorA.png"
+import l from "@/assets/images/VectorL.png"
+import b from "@/assets/images/VectorB.png"
+import b2 from "@/assets/images/VectorB2.png"
+import u from "@/assets/images/VectorU.png"
+import s from "@/assets/images/VectorS.png"
+import aVector from "@/assets/images/VectorAImage.png"
+import ceo from "@/assets/images/CEO.png"
 
 export default function AlbbusDescription(){
     return(
         <article>
             <section className={style.module1}>
                 <div className={style.aVector}>
-                    <Image src={aVector} layout="responsive"/>
+                    <Image src={aVector} layout="responsive" alt="Icon"/>
                 </div>
                 <div className={style.textCont}>
                     <span className={style.enText}>En
@@ -31,7 +31,7 @@ export default function AlbbusDescription(){
                     <button className={style.contactBtn}>Contáctanos</button>
                 </div>
                 <div className={style.ceoCont}>
-                    <Image src={ceo} layout="intrinsic"/>
+                    <Image src={ceo} layout="intrinsic" alt="CEO"/>
                 </div>
             </section>
             <section className={style.module2}>
