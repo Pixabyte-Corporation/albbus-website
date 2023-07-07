@@ -3,7 +3,7 @@ import style from "./Navbar.module.scss";
 
 import Image from "next/image";
 
-import logotype from "@/assets/Images/logotype.svg";
+import logotype from "@/assets/img/logotype.svg";
 
 export default function Navbar() {
   return (

@@ -1,12 +1,12 @@
 import style from "./Description.module.scss";
 import Image from "next/legacy/image";
-import a from "@/assets/images/VectorA.png"
-import l from "@/assets/images/VectorL.png"
-import b from "@/assets/images/VectorB.png"
-import b2 from "@/assets/images/VectorB2.png"
-import u from "@/assets/images/VectorU.png"
-import s from "@/assets/images/VectorS.png"
-import albbus from "@/assets/images/Albbus.png"
+import a from "@/assets/img/VectorA.png"
+import l from "@/assets/img/VectorL.png"
+import b from "@/assets/img/VectorB.png"
+import b2 from "@/assets/img/VectorB2.png"
+import u from "@/assets/img/VectorU.png"
+import s from "@/assets/img/VectorS.png"
+import albbus from "@/assets/img/Albbus.png"
 
 export default function Description(){
     return(

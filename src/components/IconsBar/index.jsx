@@ -1,8 +1,8 @@
 import style from "./IconsBar.module.scss";
 import Image from "next/legacy/image";
-import sintax from "@/assets/images/sintax.png";
-import ai27 from "@/assets/images/GroupAI27.png";
-import ais from "@/assets/images/GroupAiS.png";
+import sintax from "@/assets/img/sintax.png";
+import ai27 from "@/assets/img/GroupAI27.png";
+import ais from "@/assets/img/GroupAiS.png";
 
 export default function IconsBar(){
     return(

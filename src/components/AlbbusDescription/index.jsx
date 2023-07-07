@@ -1,13 +1,13 @@
 import style from "./AlbbusDescription.module.scss";
 import Image from "next/legacy/image";
-import a from "@/assets/images/VectorA.png"
-import l from "@/assets/images/VectorL.png"
-import b from "@/assets/images/VectorB.png"
-import b2 from "@/assets/images/VectorB2.png"
-import u from "@/assets/images/VectorU.png"
-import s from "@/assets/images/VectorS.png"
-import aVector from "@/assets/images/VectorAImage.png"
-import ceo from "@/assets/images/CEO.png"
+import a from "@/assets/img/VectorA.png"
+import l from "@/assets/img/VectorL.png"
+import b from "@/assets/img/VectorB.png"
+import b2 from "@/assets/img/VectorB2.png"
+import u from "@/assets/img/VectorU.png"
+import s from "@/assets/img/VectorS.png"
+import aVector from "@/assets/img/VectorAImage.png"
+import ceo from "@/assets/img/CEO.png"
 
 export default function AlbbusDescription(){
     return(
