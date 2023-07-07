@@ -1,0 +1,58 @@
+.contenedorPrincipal {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 100px;
+  margin-top: 141px;
+}
+.contenedorSecundario {
+  background-image: url(../../assets/img/caracteristicasBackground.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.contenedor {
+  width: 1392px;
+  height: 516px;
+  display: flex;
+  margin: auto;
+  
+  align-items: center;
+  gap: 30px;
+}
+
+.copy {
+  color: #016848;
+  font-size: 36px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.opciones {
+  display: flex;
+  justify-content: center;
+  gap: 190px;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+.boton {
+  margin: auto;
+  display: block;
+  padding: 10px 50px;
+  border-radius: 5px;
+  background: #04534e;
+  margin-bottom: 114px;
+  color: #fff;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.texto {
+  width: 95.87%;
+  margin: auto;
+  color: #17003b;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Montserrat";
+}

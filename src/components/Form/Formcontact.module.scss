@@ -1,0 +1,182 @@
+.container {
+  width: 420px;
+  height: 548px;
+  border-radius: 10px;
+  border: 1px solid rgba(140, 222, 220, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  position: absolute;
+  left: 880px;
+  top: 100px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 500;
+  padding: 20px 200px 15px 0;
+}
+
+.line {
+  width: 90%;
+  height: 0px;
+  color: rgba(140, 222, 220, 0.5019607843);
+  margin-left: 22px;
+  margin-bottom: 10px;
+}
+
+.inputform {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas con igual ancho */
+  gap: 0px; 
+  margin-bottom: 15px;
+  margin-right: 20px;
+  margin-left: 30px
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.description {
+  color: #8cdedc;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-bottom: 7px;
+  margin-left: 30px;
+}
+
+.column p {
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-bottom: 5px;
+
+}
+
+.input1 {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 358px;
+  height: 55px;
+  border-radius: 5px;
+  outline: none;
+  flex-shrink: 0;
+  margin-left: 30px;
+  margin-bottom: 14px;
+  border: none;
+}
+
+.input {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 130%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
+ 
+}
+
+.input2 {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 69%;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  outline: none;
+  border: 1px;
+  background: #ffffff;
+
+}
+
+.input3 {
+  padding-left: 35px;
+  box-sizing: border-box;
+  width: 17%;
+  height: 35px;
+  flex-shrink: 0;
+  margin-left: 30px;
+  border-radius: 5px;
+  outline: none;
+  border:  1px solid #75757549;
+  background: #FFF;
+
+}
+
+.input::placeholder {
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.input3::placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.input2::placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+
+}
+
+.enviar {
+  display: flex;
+  width: 355px;
+  padding: 10px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: #011929;
+  background: #011929;
+  color: #fff;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.enviar:hover{
+
+  background: #76bff0;
+  color: #fff;
+ 
+}
+
+.inputRow {
+  display: grid;
+}
+
+.Inputlada {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  top: 66%;
+  left: 35px;
+  transform: translateY(-50%);
+  background: none;
+}
+
+.num {
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-left: 30px;
+  margin-bottom: 7px;
+}

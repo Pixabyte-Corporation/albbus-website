@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap");
 
 * {
   margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: #011d1dd0;
+
+  z-index: 2;
+}
+
+main {
+  overflow-x: hidden;
 }
