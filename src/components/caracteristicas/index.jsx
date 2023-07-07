@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Caracteristicas.module.scss";
 
-import caracteristicasStock from "@/assets/image/caracteristicasStock.png";
+import caracteristicasStock from "@/assets/images/caracteristicasStock.png";
 import CaracteristicasOpciones from "./CaracteristicasOpciones";
 
 import Image from "next/image";
