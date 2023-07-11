@@ -34,6 +34,12 @@
   width: 60%;
   
 }
+.descubreContainer{
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+  margin: auto;
+}
 .descubre {
   text-transform: uppercase;
   color: #1b2641;
@@ -47,6 +53,12 @@
   letter-spacing: 50px;
   margin-bottom: 65px;
   margin-right: -50px;
+  transition: all 400ms;
+}
+.descubre:hover{
+  cursor: default;
+  color: white;
+  filter: none;
 }
 
 .copy {
