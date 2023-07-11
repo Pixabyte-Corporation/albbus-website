@@ -20,7 +20,6 @@
 }
 .albbusCont{
     display: flex;
-    justify-content: space-around;
 }
 .solutions{
     grid-column: 1/3;
@@ -32,4 +31,7 @@
     justify-content: center;
     width: 100%;
     font-style: italic;
+}
+.letterCont{
+    margin-right: .45em;
 }
