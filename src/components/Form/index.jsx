@@ -55,7 +55,7 @@ export default function Formcontact() {
       <p className={style.num}>Número Celular</p>
       <div className={style.inputRow}>
         <span className={style.Inputlada}>
-          <Image className={style.icon} src={lada} alt="lada" />
+        <span className={style.imagespan}></span>
           <input className={style.input3} type="tel" pattern="[0-9]+" placeholder="+52"  />
           <input
             className={style.input2}
