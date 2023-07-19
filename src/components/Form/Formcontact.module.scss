@@ -99,18 +99,39 @@
 }
 
 .input3 {
-  padding-left: 35px;
+
   box-sizing: border-box;
-  width: 17%;
+  width: 10%;
   height: 35px;
   flex-shrink: 0;
-  margin-left: 30px;
-  border-radius: 5px;
+  border-radius: 0px 0px 5px 0px;
   outline: none;
   border:  1px solid #75757549;
   background: #FFF;
+  border-left: none;
 
 }
+
+.imagespan {
+  padding-left: 35px;
+  box-sizing: border-box;
+  width: 3%;
+  height: 35px;
+  flex-shrink: 0;
+  margin-left: 30px;
+  border-radius: 0px 0px 0px 5px;
+  border:  0;
+  outline: none;
+  border:  1px solid #75757549; /* Cambia el color y el grosor del contorno según tus necesidades */
+  box-shadow: none; 
+  border-right: none;
+  background: #FFF;
+  background-image: url('../../assets/icons/mexico.svg');
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .input::placeholder {
   font-family: Montserrat;
@@ -144,6 +165,7 @@
   font-weight: 500;
   margin-left: 35px;
   margin-top: 40px;
+  cursor:pointer ;
 }
 
 .enviar:hover{
