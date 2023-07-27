@@ -7,7 +7,7 @@ import iconlinkedin from "@/assets/icons/icon-linkedin.png";
 import icontwitter from "@/assets/icons/icon-twitter.png";
 import iconfacebook from "@/assets/icons/icon-facebook.png";
 
-export default function footer() {
+export default function Footer() {
     return (
       <footer className={style.footer}>
         <div className={style.leftsection}>
