@@ -8,7 +8,9 @@ export default function Contact(){
 
     return(
 <section className={style.containerform}>
-<p className={style.title}>¿Cómo podemos ayudarte?</p>
+    <div className={style.containertitle}>
+    <p className={style.title}>¿Cómo podemos ayudarte?</p>
+    </div>
 <Formcontact />
 </section>
     )
