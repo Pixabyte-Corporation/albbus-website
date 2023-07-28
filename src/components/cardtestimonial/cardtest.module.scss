@@ -3,7 +3,7 @@
   border: 1px solid #8cdedc;
   background: rgba(140, 222, 220, 0.2);
   backdrop-filter: blur(7.5px);
-  width: 50%;
+  width: 48em;
   margin-left: 2em;
   height: 70%;
 }
@@ -50,34 +50,35 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 1250px) {
-  .textsintax{
-    font-size: 1.1em;
-  }
-  .subsintax{
-    font-size: 1.5em;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .rightline{
     display: none;
   }
+  .cardtest{
+    width: 30em;
+  }
   .textsintax{
     margin-top: 1.5em;
     margin-left: 1em;
+    font-size: 1.1em;
   }
   .subsintax{
     margin-top: 0;
+    font-size: 1.5em;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 575px) {
+
+  .cardtest{
+    width: 20em;
+  }
   .textsintax{
     font-size: 1em;
-    margin-top: 1.5em;
     margin-left: 1em;
+    margin-right: .2em;
   }
   .subsintax{
-    margin-top: 0;
+    font-size: 1.2em;
+    margin-top: .2em;
   }
 }
