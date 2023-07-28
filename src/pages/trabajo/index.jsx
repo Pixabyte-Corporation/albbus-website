@@ -11,7 +11,7 @@ export default function Trabajo() {
         <Navbar />
         <main>
           <OurWork/>
-          <AlbbusDescription/>
+          {/* <AlbbusDescription/> */}
           <CardsWork />
           <Testimonials />
         </main>

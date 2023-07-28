@@ -3,8 +3,7 @@ import style from "./cardtest.module.scss";
 export default function Cardtestimonial() 
 {
   return (
-    <section className={style.containercardtest}>
-      <div className={style.cardtest}>
+      <section className={style.cardtest}>
         <p className={style.textsintax}>
           &quot;Fue una de las mejores decisiones que tomé <br></br>
           para mi negocio. El software que implementaron <br></br>
@@ -15,7 +14,6 @@ export default function Cardtestimonial()
         <span>
       <button className={style.rightline}></button>
       </span>
-      </div>
-    </section>
+      </section>
   );
 }

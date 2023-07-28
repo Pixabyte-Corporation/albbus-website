@@ -1,11 +1,16 @@
 .containertest {
-    width: 1512px;
-    height: 365px;
-    flex-shrink: 0;
-  
-    position: relative;
+    width: 100%;
+    height: 50vh;
     background-image: url(../../assets/img/testimonialbck.png);
     background-repeat: no-repeat;
     background-size: cover;
-  
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .containertest{
+        justify-content: center;
+    }
+  }
