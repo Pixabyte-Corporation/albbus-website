@@ -12,7 +12,7 @@ export default function Banner() {
         <p className={style.description}>
           Maximiza tus resultados con tecnología de punta
         </p>
-        <a  href="#contactanos" className={style.btnContactUs}>
+        <a href="#contactanos" className={style.btnContactUs}>
           Contáctanos
         </a>
       </div>
