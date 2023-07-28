@@ -1,63 +1,233 @@
-.container {
-  width: 100%;
-  height: 100vh;
+@media (min-width: 1200px){
+  .container {
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-image: url(../../assets/img/homeHeroImage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title {
+    margin: 20px auto 50px auto;
+  
+    font-family: "Montserrat";
+    font-size: 80px;
+    font-weight: 600;
+    background: linear-gradient(
+      90deg,
+      #202020 4.48%,
+      #c4d976 11.25%,
+      #808c52 41.46%,
+      #c8d96f 66.46%,
+      #16fefd 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .title span {
+    font-size: 100px;
+  }
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .titlePhone{
+    display: none;
+  }
+  
+  .description {
+    font-family: "Montserrat Alternates";
+    font-size: 36px;
+    font-weight: 500;
+    color: #91ddd2;
+  }
+  
+  .btnContactUs {
+    width: 250px;
+    height: 49px;
+  
+    margin: 50px 0 0 0;
+    padding: 10px 50px 10px 50px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border: none;
+    border-radius: 10px;
+  
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    color: #17003b;
+  
+    background: #c8d96f;
 
-  background-image: url(../../assets/img/homeHeroImage.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    text-decoration: none;
+  }
 }
 
-.title {
-  margin: 20px auto 50px auto;
+@media (min-width: 769px) and (max-width: 1199px){
+  .container {
+    width: 100%;
+    height: 760px;
+  
+    display: flex;
+    align-items: center;
+  
+    background-image: url(../../assets/img/homeHeroImage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title {
+    width: 90%;
 
-  font-family: "Montserrat";
-  font-size: 80px;
-  font-weight: 600;
-  background: linear-gradient(
-    90deg,
-    #202020 4.48%,
-    #c4d976 11.25%,
-    #808c52 41.46%,
-    #c8d96f 66.46%,
-    #16fefd 100%
-  );
-  background-clip: text;
-  color: transparent;
+    margin: 60px 0 50px 40px;
+  
+    font-family: "Montserrat";
+    font-size: 80px;
+    font-weight: 600;
+    background: linear-gradient(
+      90deg,
+      #202020 4.48%,
+      #c4d976 11.25%,
+      #808c52 41.46%,
+      #c8d96f 66.46%,
+      #16fefd 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .title span {
+    font-size: 100px;
+  }
+
+  .titlePhone {
+    display: none;
+  }
+  
+  .description {
+    width: 90%;
+
+    margin: 20px 0 80px 40px;
+
+    font-family: "Montserrat Alternates";
+    font-size: 36px;
+    font-weight: 500;
+    color: #91ddd2;
+  }
+  
+  .btnContactUs {
+    width: 250px;
+    height: 49px;
+  
+    margin: 50px 0 0 40px;
+    padding: 5px 30px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border: none;
+    border-radius: 10px;
+  
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    color: #17003b;
+  
+    background: #c8d96f;
+
+    text-decoration: none;
+  }
 }
 
-.title span {
-  font-size: 100px;
-}
+@media (max-width: 768px){
+  .container {
+    width: 100%;
+    height: 760px;
+  
+    background-image: url(../../assets/img/homeHeroImage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title{
+    display: none;
+  }
 
-.description {
-  font-family: "Montserrat Alternates";
-  font-size: 36px;
-  font-weight: 500;
-  color: #91ddd2;
-}
+  .content{
+    width: 98%;
+    height: 500px;
 
-.btnContactUs {
-  width: 250px;
-  height: 49px;
+    margin: 0 auto;
+    padding-top: 120px;
 
-  margin: 50px 0 0 0;
-  padding: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .titlePhone {
+    width: 100%;
+     
+    margin: 50px auto 0 auto;
+    
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 600;
+    background: linear-gradient(
+      90deg,
+      #202020 4.48%,
+      #c4d976 11.25%,
+      #808c52 41.46%,
+      #c8d96f 66.46%,
+      #16fefd 100%
+    );
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .description {
+    width: 100%;
 
-  border: none;
-  border-radius: 10px;
+    margin: 50px auto 0 auto;
+    
+    text-align: center;
+    font-family: "Montserrat Alternates";
+    font-size: 30px;
+    font-weight: 500;
+    color: #91ddd2;
+  }
+  
+  .btnContactUs {
+    width: 200px;
+    height: 49px;
+  
+    margin: 80px auto -100px auto;
+    padding: 5px 10px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border: none;
+    border-radius: 10px;
+  
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    color: #17003b;
+  
+    background: #c8d96f;
 
-  font-family: "Inter";
-  font-size: 24px;
-  font-weight: 600;
-  color: #17003b;
-
-  background: #c8d96f;
+    text-decoration: none;
+  }
 }

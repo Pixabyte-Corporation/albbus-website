@@ -1,49 +1,36 @@
-.conteinercardtest {
-  width: 697px;
-  height: 248px;
-  flex-shrink: 0;
-}
-
-.cardtest {
-  width: 697px;
-  height: 248px;
-  flex-shrink: 0;
+.cardtest{
   border-radius: 10px;
   border: 1px solid #8cdedc;
   background: rgba(140, 222, 220, 0.2);
   backdrop-filter: blur(7.5px);
-  position: absolute;
-  top: 16%;
-  left: 4%;
+  width: 50%;
+  margin-left: 2em;
+  height: 70%;
 }
 
-.textsintax {
+.textsintax{
   display: flex;
-  width: 565px;
   flex-direction: column;
-  flex-shrink: 0;
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 2em;
+  margin-left: 2.2em;
   color: #8cdedc;
-  font-size: 24px;
+  font-size: 1.5em;
   font-family: Inter;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
-.subsintax {
+.subsintax{
   color: #2df6fe;
-  font-size: 32px;
+  font-size: 2em;
   font-family: Inter;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 2%;
-  margin-left: 80%;
+  margin-top: .5em;
+  margin-left: 80%; 
 }
-
-.rightline {
+.rightline{
   position: absolute;
   width: 80px;
   height: 80px;
@@ -61,4 +48,36 @@
   -webkit-appearance: none;
   background-image: url("../../assets/icons/right-line.svg");
   z-index: 2;
+}
+
+@media screen and (max-width: 1250px) {
+  .textsintax{
+    font-size: 1.1em;
+  }
+  .subsintax{
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .rightline{
+    display: none;
+  }
+  .textsintax{
+    margin-top: 1.5em;
+    margin-left: 1em;
+  }
+  .subsintax{
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .textsintax{
+    font-size: 1em;
+    margin-top: 1.5em;
+    margin-left: 1em;
+  }
+  .subsintax{
+    margin-top: 0;
+  }
 }

@@ -27,7 +27,7 @@ export default function AlbbusDescription(){
                             <span><Image src={s} alt="S"/></span>
                         </div>
                     </span>
-                    <p>contamos con los recursos y el compromiso para <span className={style.blueSpan}>resolver</span> todas tus <span className={style.blueSpan}>necesidades.</span></p>
+                    <p className={style.copyCont}>contamos con los recursos y el compromiso para <span className={style.blueSpan}>resolver</span> todas tus <span className={style.blueSpan}>necesidades.</span></p>
                     <button className={style.contactBtn}>Contáctanos</button>
                 </div>
                 <div className={style.ceoCont}>

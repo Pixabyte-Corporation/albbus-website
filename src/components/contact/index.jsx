@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import style from "./Contact.module.scss"
+import style from "./Contact.module.scss";
 import Formcontact from "@/components/Form";
 
+feature/form
 
 export default function Contact(){
 
@@ -13,6 +14,5 @@ export default function Contact(){
     </div>
 <Formcontact />
 </section>
-    );
+    )
 }
-
