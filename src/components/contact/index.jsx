@@ -3,16 +3,14 @@ import { useState } from "react";
 import style from "./Contact.module.scss";
 import Formcontact from "@/components/Form";
 
-feature/form
-
 export default function Contact(){
 
     return(
-<section className={style.containerform}>
-    <div className={style.containertitle}>
-    <p className={style.title}>¿Cómo podemos ayudarte?</p>
-    </div>
-<Formcontact />
-</section>
+        <section className={style.containerform}>
+            <div className={style.containertitle}>
+            <p className={style.title}>¿Cómo podemos ayudarte?</p>
+            </div>
+            <Formcontact />
+        </section>
     )
 }
