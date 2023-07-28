@@ -32,7 +32,7 @@
   margin: auto;
   margin-bottom: 115px;
   width: 60%;
-  
+  /* transition: all 400ms; */
 }
 .descubreContainer{
   display: flex;
@@ -70,4 +70,46 @@
   font-weight: 500;
   line-height: normal;
   text-align: center;
+}
+
+
+//Mobile
+@media only screen and (max-width: 768px) {
+  .title{
+    margin-top: 9%;
+    font-size: 6vw;
+  }
+
+  .mainContainer{
+    height: 100%;
+    padding-bottom: 50px;
+  }
+
+  .text{
+    font-size: 4vw;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .copy{
+    font-size: 5vw;
+  }
+  .descubreContainer{
+    display: none;
+  }
+  
+}
+
+//Mobile
+@media only screen and (max-width: 1199px) {
+
+  .text{
+    font-size: 4vw;
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+
+  .descubre{
+    font-size: 100px;
+  }
 }
