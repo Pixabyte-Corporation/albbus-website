@@ -8,6 +8,7 @@ export default function Banner() {
         <p className={style.title}>
           <span>T</span>U SOCIO EN TECNOLOGÍA
         </p>
+        <div className={style.titlePhone}>TU SOCIO EN TECNOLOGÍA</div>
         <p className={style.description}>
           Maximiza tus resultados con tecnología de punta
         </p>

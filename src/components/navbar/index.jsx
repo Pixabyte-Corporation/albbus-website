@@ -50,7 +50,7 @@ export default function Navbar() {
         <Hamburger
           color="#4FD1C5"
           distance="lg"
-          size={40}
+          size={30}
           toggled={isOpen}
           toggle={statusGral}
           onToggle={(toggled) => {
