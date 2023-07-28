@@ -3,7 +3,17 @@
     display: none;
   }
 
+  .noNav{
+    display: none;
+    visibility: hidden;
+  }
+
   .nav {
+    display: none;
+    visibility: hidden;
+  }
+
+  .menuDesktop{
     display: flex;
   }
 
@@ -69,6 +79,11 @@
 @media (min-width: 769px) and (max-width: 1199px) {
   .noNav {
     display: none;
+  }
+
+  .menuDesktop{
+    display: none;
+    visibility: hidden;
   }
 
   .nav {
@@ -177,6 +192,11 @@
     background: #013748d1;
 
     z-index: 10;
+  }
+
+  .menuDesktop{
+    display: none;
+    visibility: hidden;
   }
 
   .position {
