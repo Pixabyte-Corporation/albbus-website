@@ -1,61 +1,76 @@
 .footer {
-    background-color: #061E22;
-    color: #8CDEDC;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    height: 170px;
-    font-size: 20px;
+  background-color: #061E22;
+  color: #8CDEDC;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 20px;
+  height: 170px;
+  font-size: 20px;
 
-    .leftsection {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      
-      .logo {
-        width: 320px;
-        height: 50px;
-      }
-      
-      .rights {
-        margin-top: 50px;
-        color: #ffffff;
-      }
+  .leftsection {
+    display: flex;
+    align-items: flex-start; 
+    flex-direction: column;
+    margin: 20px;
+    
+    .logo {
+      width: 320px;
+      height: 50px;
+      margin-bottom: 10px; 
     }
     
-    .rightsection {
-      .follow {
-        margin: 15px;
-        text-align: right;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      }
-      
-      .socialicons {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        
-        
-        .icon {
-          margin: 5px;
-          width: 25px;
-          height: 25px;
-        }
-      }
+    .rights {
+      color: #ffffff;
+    }
+  }
+  
+  .rightsection {
+    .follow {
+      margin: 5px 0; 
+      font-family: Arial, Helvetica, sans-serif;
     }
     
-    .linkssection {
+    .socialicons {
       display: flex;
-      margin: 15px;
+      flex-direction: row;
+      justify-content: flex-start; 
       
-      p {
-        font-family: 'Inter', sans-serif;
-        size: 20px;
-        margin-left: 50px;
-        margin-bottom: 0;
-        color: #8CDEDC;
+      .icon {
+        margin: 5px;
+        width: 25px;
+        height: 25px;
       }
     }
   }
   
+  .linkssection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-top: 10px; 
+
+    .linksfooter {
+      font-family: 'Inter', sans-serif;
+      font-size: 20px;
+      margin: 5px 0; 
+      color: #8CDEDC;
+      text-decoration: none;
+    }
+  }
+
+  /* Estilos para pantallas más pequeñas (máximo 768px) */
+  @media screen and (max-width: 768px) {
+    flex-direction: column; 
+    height: auto;
+
+    .leftsection {
+      align-items: center; 
+      margin-bottom: 10px;
+    }
+
+    .rightsection {
+      text-align: center; 
+    }
+  }
+}
