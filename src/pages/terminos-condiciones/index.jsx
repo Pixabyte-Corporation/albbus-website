@@ -2,7 +2,7 @@ import React from "react";
 import "../../app/globals.scss";
 import style from "./Terminos.module.scss";
 import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 export default function Aviso(){
 
