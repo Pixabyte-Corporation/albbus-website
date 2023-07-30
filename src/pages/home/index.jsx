@@ -4,7 +4,7 @@ import Description from "@/components/Description";
 import IconsBar from "@/components/IconsBar";
 import Carateristicas from "@/components/caracteristicas";
 import Contact from "@/components/contact";
-import Footer from "@/components";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
