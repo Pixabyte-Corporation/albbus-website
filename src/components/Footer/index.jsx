@@ -1,5 +1,6 @@
 // index.jsx
 import React from "react";
+import Link from "next/link";
 import "../../app/globals.scss";
 import style from "./Footer.module.scss";
 import Image from "next/image";
@@ -18,31 +19,31 @@ export default function Footer() {
       <div className={style.rightsection}>
         <p className={style.follow}>Síguenos</p>
         <div className={style.socialicons}>
-          <a href="https://www.linkedin.com/company/pixabytemx">
+          <Link href="https://www.linkedin.com/company/pixabytemx">
             <Image src={iconlinkedin} alt="LinkedIn" className={style.icon} />
-          </a>
-          <a href="https://twitter.com/Pixabyte_?t=nSxTqJ-yPUzfIWH0mItaOw&s=08">
+          </Link >
+          <Link href="https://twitter.com/Pixabyte_?t=nSxTqJ-yPUzfIWH0mItaOw&s=08">
             <Image src={icontwitter} alt="Twitter" className={style.icon} />
-          </a>
-          <a href="https://www.facebook.com/PixabyteL?mibextid=ZbWKw">
+          </Link >
+          <Link href="https://www.facebook.com/PixabyteL?mibextid=ZbWKw">
             <Image src={iconfacebook} alt="Facebook" className={style.icon} />
-          </a>
+          </Link >
         </div>
         <div className={style.linkssection}>
           <p>
-            <a href="/aviso-privacidad" className={style.linksfooter}>
+            <Link href="/aviso-privacidad" className={style.linksfooter}>
               Politica de privacidad
-            </a>
+            </Link >
           </p>
           <p>
-            <a href="/terminos-condiciones" className={style.linksfooter}>
+            <Link href="/terminos-condiciones" className={style.linksfooter}>
               Términos y condiciones
-            </a>
+            </Link >
           </p>
           <p>
-            <a href="#" className={style.linksfooter}>
+            <Link href="#" className={style.linksfooter}>
               Políticas de cookies
-            </a>
+            </Link >
           </p>
         </div>
       </div>

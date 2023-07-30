@@ -1,4 +1,5 @@
 import "../../app/globals.scss";
+import Link from "next/link";
 import style from "./Banner.module.scss";
 
 export default function Banner() {
@@ -12,9 +13,9 @@ export default function Banner() {
         <p className={style.description}>
           Maximiza tus resultados con tecnología de punta
         </p>
-        <a href="#contactanos" className={style.btnContactUs}>
+        <Link href="#contactanos" className={style.btnContactUs}>
           Contáctanos
-        </a>
+        </Link >
       </div>
     </section>
   );

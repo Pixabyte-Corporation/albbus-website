@@ -2,6 +2,7 @@
 import "../../app/globals.scss";
 import style from "./Navbar.module.scss";
 
+import Link from "next/link";
 import Image from "next/image";
 import { Squash as Hamburger } from "hamburger-react";
 import { useEffect, useState } from "react";
@@ -26,9 +27,9 @@ export default function Navbar() {
 
   return (
     <header className={style.header}>
-      <a href="/home" className={style.container} onClick={statusMenu}>
+      <Link href="/home" className={style.container} onClick={statusMenu}>
         <Image className={style.logo} src={logotype} alt="Albbus" />
-      </a>
+      </Link >
       <div id="hamburguer" className={style.position}>
         <Hamburger
           color="#4FD1C5"
@@ -48,25 +49,25 @@ export default function Navbar() {
       <nav className={menu}>
         <ul className={style.elements}>
           {/* <li className={style.element}>
-            <a href="" className={style.aLink}>
+            <Link href="" className={style.aLink}>
               Acerca de
-            </a>
+            </Link >
           </li> */}
           <li className={style.element} onClick={statusMenu}>
-            <a href="/trabajo" className={style.aLink}>
+            <Link href="/trabajo" className={style.aLink}>
               Nuestro trabajo
-            </a>
+            </Link >
           </li>
           {/* <li className={style.element}>
-            <a href="" className={style.aLink}>
+            <Link href="" className={style.aLink}>
               Nuestro Talento
-            </a>
+            </Link >
           </li> */}
           <li className={style.element} onClick={statusMenu}>
             {/* <button type="submit" className={style.btnQuote}> "uncomment" */}
-            <a href="home#contactanos" className={style.aLink}>
+            <Link href="home#contactanos" className={style.aLink}>
               Contáctanos
-            </a>
+            </Link >
             {/* Cotizar  <- this is the original tag, delete "Contáctanos"
                and chage "href" by new url*/}
             {/* </button>  "uncomment" */}
@@ -76,25 +77,25 @@ export default function Navbar() {
       <nav className={style.menuDesktop}>
         <ul className={style.elements}>
           {/* <li className={style.element}>
-            <a href="" className={style.aLink}>
+            <Link href="" className={style.aLink}>
               Acerca de
-            </a>
+            </Link >
           </li> */}
           <li className={style.element}>
-            <a href="/trabajo" className={style.aLink}>
+            <Link href="/trabajo" className={style.aLink}>
               Nuestro trabajo
-            </a>
+            </Link >
           </li>
           {/* <li className={style.element}>
-            <a href="" className={style.aLink}>
+            <Link href="" className={style.aLink}>
               Nuestro Talento
-            </a>
+            </Link >
           </li> */}
           <li className={style.element}>
             {/* <button type="submit" className={style.btnQuote}> "uncomment" */}
-            <a href="home#contactanos" className={style.aLink}>
+            <Link href="home#contactanos" className={style.aLink}>
               Contáctanos
-            </a>
+            </Link >
             {/* Cotizar  <- this is the original tag, delete "Contáctanos"
                and chage "href" by new url*/}
             {/* </button>  "uncomment" */}
