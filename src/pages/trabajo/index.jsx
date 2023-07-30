@@ -3,7 +3,7 @@ import AlbbusDescription from "@/components/AlbbusDescription";
 import OurWork from "@/components/ourWork";
 import CardsWork from "@/components/cardsWork";
 import Testimonials from "@/components/testimonials";
-import Footer from "@/components/Footer";
+import Footer from "@/components";
 
 export default function Trabajo() {
     return (

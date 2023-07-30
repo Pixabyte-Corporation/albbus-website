@@ -2,7 +2,7 @@ import React from "react";
 import "../../app/globals.scss";
 import style from "./Avisoprivacidad.module.scss";
 import Navbar from "@/components/navbar";
-import Footer from "@/components/Footer";
+import Footer from "@/components";
 
 export default function Aviso(){
 
