@@ -56,7 +56,7 @@
   .aLink {
     margin-right: 60px;
 
-    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
@@ -66,25 +66,8 @@
   }
 
   .aLinkBtn {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Inter";
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration: none;
-    color: #8cdedc;
-
-    cursor: default;
-  }
-
-  .btnQuote {
-    width: 137px;
-    height: 44px;
+    width: 140px;
+    height: 45px;
 
     display: flex;
     justify-content: center;
@@ -94,11 +77,19 @@
     border-radius: 10px;
     background: none;
 
-    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 300;
+    color: #91ddd2;
     text-decoration: none;
-    color: #8cdedc;
+
+    cursor: default;
+  }
+
+  .aLinkBtn:hover{
+    color: #000000;
+
+    background: rgba(140, 222, 220, 1);
   }
 
   .headerTwo {
@@ -200,9 +191,9 @@
     cursor: default;
   }
 
-  .btnQuote {
-    width: 137px;
-    height: 44px;
+  .aLinkBtn {
+    width: 140px;
+    height: 45px;
 
     margin-left: 20px;
 
@@ -214,28 +205,19 @@
     border-radius: 10px;
     background: none;
 
-    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 300;
+    color: #91ddd2;
     text-decoration: none;
-    color: #8cdedc;
-  }
-
-  .aLinkBtn {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Inter";
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration: none;
-    color: #8cdedc;
 
     cursor: default;
+  }
+
+  .aLinkBtn:hover{
+    color: #000000;
+
+    background: rgba(140, 222, 220, 1);
   }
 
   .headerTwo {
@@ -339,9 +321,9 @@
     cursor: default;
   }
 
-  .btnQuote {
-    width: 137px;
-    height: 44px;
+  .aLinkBtn {
+    width: 140px;
+    height: 45px;
 
     margin-left: 20px;
 
@@ -353,28 +335,19 @@
     border-radius: 10px;
     background: none;
 
-    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 300;
+    color: #91ddd2;
     text-decoration: none;
-    color: #8cdedc;
-  }
-
-  .aLinkBtn {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-family: "Inter";
-    font-size: 20px;
-    font-weight: 300;
-    text-decoration: none;
-    color: #8cdedc;
 
     cursor: default;
+  }
+
+  .aLinkBtn:hover{
+    color: #000000;
+
+    background: rgba(140, 222, 220, 1);
   }
 
   .headerTwo {

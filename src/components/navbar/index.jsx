@@ -69,11 +69,9 @@ export default function Navbar() {
               </a>
             </li>
             <li className={style.element} onClick={statusMenu}>
-              <button type="submit" className={style.btnQuote}>
-                <a href="home#contactanos" className={style.aLinkBtn}>
-                  Cotizar
-                </a>
-              </button>
+              <a href="home#contactanos" className={style.aLinkBtn}>
+                Cotizar
+              </a>
             </li>
           </ul>
         </nav>
@@ -91,11 +89,9 @@ export default function Navbar() {
             </a>
           </li>
           <li className={style.element} onClick={statusMenu}>
-            <button type="submit" className={style.btnQuote}>
-              <a href="home#contactanos" className={style.aLinkBtn}>
-                Cotizar
-              </a>
-            </button>
+            <a href="home#contactanos" className={style.aLinkBtn}>
+              Cotizar
+            </a>
           </li>
         </ul>
       </nav>
