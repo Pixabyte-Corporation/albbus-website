@@ -12,7 +12,30 @@ export default function Description() {
   return (
     <section className={style.descriptionCont}>
       <div className={style.create}>
-        <p>&quot;Convierte tus ideas en realidad con</p>
+        <p>
+          &quot;Convierte tus ideas en realidad con
+          <div className={style.albbusContPhone}>
+            <span className={style.letterCont}>
+              <Image src={a} alt="A" />
+            </span>
+            <span className={style.letterCont}>
+              <Image src={l} alt="L" />
+            </span>
+            <span className={style.letterCont}>
+              <Image src={b} alt="B" />
+            </span>
+            <span className={style.letterCont}>
+              <Image src={b2} alt="B" />
+            </span>
+            <span className={style.letterCont}>
+              <Image src={u} alt="U" />
+            </span>
+            <span className={style.letterCont}>
+              <Image src={s} alt="S" />
+            </span>
+            &quot;
+          </div>
+        </p>
         <div className={style.albbusCont}>
           <span className={style.letterCont}>
             <Image src={a} alt="A" />
@@ -37,13 +60,6 @@ export default function Description() {
       </div>
       <div className={style.image}>
         <Image src={albbus} alt="technologies" />
-      </div>
-      <div className={style.solutions}>
-        <p>
-          Todas nuestras soluciones tecnológicas son escalables y adaptables a
-          medida que tu empresa
-        </p>
-        <span>crece y evoluciona.</span>
       </div>
     </section>
   );
