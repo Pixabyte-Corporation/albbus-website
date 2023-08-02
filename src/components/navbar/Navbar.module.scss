@@ -1,44 +1,70 @@
-.logo{
+@media (min-width: 1200px) {
+  .position {
+    display: none;
+  }
+
+  .noNav{
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav {
+    display: none;
+    visibility: hidden;
+  }
+
+  .menuDesktop{
+    display: flex;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+  }
+
+  .logo {
     width: 180px;
     height: 30px;
+  }
 
-    position: absolute;
-    top: 40px;
-    left: 60px;
-}
-
-.elements{
+  .elements {
     width: 811px;
     height: 24px;
 
     padding: 0;
 
     position: absolute;
-    top: 50px;
-    right: 100px;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
 
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 
     list-style: none;
-}
+  }
 
-.aLink{
+  .aLink {
+    margin-left: 30px; //delete in the original page
+
     font-family: "Inter";
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
-    color: #8CDEDC;
+    color: #8cdedc;
 
     cursor: default;
-}
+  }
 
-.btnQuote{
+  .btnQuote {
     width: 137px;
     height: 44px;
 
-    border: 1px solid #91DDD2;
+    border: 1px solid #91ddd2;
     border-radius: 10px;
     background: none;
 
@@ -46,6 +72,202 @@
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
-    color: #8CDEDC;
+    color: #8cdedc;
+  }
 }
 
+@media (min-width: 769px) and (max-width: 1199px) {
+  .noNav {
+    display: none;
+  }
+
+  .menuDesktop{
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav {
+    width: 370px;
+    height: calc(100vh - 13vh);
+
+    display: flex;
+
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    background: #013748d1;
+
+    z-index: 10;
+  }
+
+  .position {
+    display: flex;
+
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+
+    z-index: 30;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+
+  .logo {
+    width: 180px;
+    height: 30px;
+  }
+
+  .elements {
+    width: 100%;
+    height: 100%;
+
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    list-style: none;
+  }
+
+  .element {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .aLink {
+    margin: auto auto auto 20px; //delete in the original page
+
+    font-family: "Inter";
+    font-size: x-large;
+    font-weight: 300;
+    text-decoration: none;
+    color: #8cdedc;
+
+    cursor: default;
+  }
+
+  .btnQuote {
+    width: 137px;
+    height: 44px;
+
+    border: 1px solid #91ddd2;
+    border-radius: 10px;
+    background: none;
+
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #8cdedc;
+  }
+}
+
+@media (max-width: 768px){
+  .noNav {
+    display: none;
+  }
+
+  .nav {
+    width: 100%;
+    height: calc(100vh - 13vh);
+
+    display: flex;
+
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    background: #013748d1;
+
+    z-index: 10;
+  }
+
+  .menuDesktop{
+    display: none;
+    visibility: hidden;
+  }
+
+  .position {
+    display: flex;
+
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+
+    z-index: 30;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+
+  .logo {
+    width: 150px;
+    height: 30px;
+  }
+
+  .elements {
+    width: 100%;
+    height: 100%;
+
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    list-style: none;
+  }
+
+  .element {
+    width: 100%;
+    height: 10%;
+
+    padding: 10px 0;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .aLink {
+    margin: auto auto auto 20px; //delete in the original page
+
+    font-family: "Inter";
+    font-size: x-large;
+    font-weight: 300;
+    text-decoration: none;
+    color: #8cdedc;
+
+    cursor: default;
+  }
+
+  .btnQuote {
+    width: 137px;
+    height: 44px;
+
+    border: 1px solid #91ddd2;
+    border-radius: 10px;
+    background: none;
+
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #8cdedc;
+  }
+}
