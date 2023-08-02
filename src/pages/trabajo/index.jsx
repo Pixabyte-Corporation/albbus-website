@@ -13,7 +13,6 @@ export default function Trabajo() {
           <OurWork/>
           <AlbbusDescription/>
           <CardsWork />
-          <Testimonials />
         </main>
       </>
     );
