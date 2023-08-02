@@ -6,7 +6,8 @@ import lada from "@/assets/icons/mexico.svg";
 
 export default function Formcontact() {
   return (
-    <section className={style.container}>
+    <section className={style.containerprincipal}>
+    <div className={style.container}>
       <h1 className={style.title}>Contáctanos</h1>
       <hr className={style.line}></hr>
       <p className={style.description}>¿Qué quieres solucionar?</p>
@@ -60,7 +61,7 @@ export default function Formcontact() {
           <input
             className={style.input2}
             type="text"
-            placeholder="Número celular 10 dígitos"
+            placeholder="Número de contacto"
           />
         </span>
       </div>
@@ -68,6 +69,7 @@ export default function Formcontact() {
       <button className={style.enviar} type="button">
         Enviar
       </button>
+      </div>
     </section>
   );
 }
