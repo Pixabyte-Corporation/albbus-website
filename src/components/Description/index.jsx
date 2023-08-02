@@ -12,9 +12,9 @@ export default function Description() {
   return (
     <section className={style.descriptionCont}>
       <div className={style.create}>
-        <p>
+        <div className={style.container}>
           &quot;Convierte tus ideas en realidad con
-          <div className={style.albbusContPhone}>
+          <p className={style.albbusContPhone}>
             <span className={style.letterCont}>
               <Image src={a} alt="A" />
             </span>
@@ -34,8 +34,8 @@ export default function Description() {
               <Image src={s} alt="S" />
             </span>
             &quot;
-          </div>
-        </p>
+          </p>
+        </div>
         <div className={style.albbusCont}>
           <span className={style.letterCont}>
             <Image src={a} alt="A" />
