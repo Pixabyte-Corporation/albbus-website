@@ -2,7 +2,6 @@ import Navbar from "@/components/navbar";
 import AlbbusDescription from "@/components/AlbbusDescription";
 import OurWork from "@/components/ourWork";
 import CardsWork from "@/components/cardsWork";
-import Testimonials from "@/components/testimonials";
 import Footer from "@/components/Footer";
 
 export default function Trabajo() {
@@ -13,7 +12,6 @@ export default function Trabajo() {
           <OurWork/>
           <AlbbusDescription/>
           <CardsWork />
-          <Testimonials />
           <Footer />
         </main>
       </>
