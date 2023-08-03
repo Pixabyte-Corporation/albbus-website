@@ -16,16 +16,17 @@
     height: 516px;
     display: flex;
     margin: auto;
-    padding-top: 120px;
     align-items: center;
     gap: 30px;
   }
 
   .copy {
-    color: #016848;
+    color: #000c25;
+    font-family: Montserrat;
     font-size: 36px;
-    font-family: "Montserrat";
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
   }
 
   .opciones {
@@ -41,26 +42,35 @@
     display: block;
     padding: 10px 50px;
     border-radius: 5px;
-    background: #04534e;
+    background: #0c8489;
     margin-bottom: 114px;
     color: #fff;
     font-size: 24px;
     font-family: Inter;
     font-weight: 700;
     border: none;
+    cursor: pointer;
+  }
+
+  .boton:hover {
+    background: #000c25;
+    color: #fff;
   }
 
   .texto {
     width: 95.87%;
     margin: auto;
-    color: #17003b;
+    color: #061E22;
     text-align: center;
+    font-family: Montserrat;
     font-size: 36px;
-    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contenedorPrincipal {
     margin: 0;
     padding: 0;
@@ -88,10 +98,12 @@
   }
 
   .copy {
-    color: #016848;
+    color: #000c25;
+    font-family: Montserrat;
     font-size: 32px;
-    font-family: "Montserrat";
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,8 +112,14 @@
 
   .opciones {
     display: grid; /* Usar grid layout en lugar de flexbox */
-    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Dos columnas de igual tamaño */
-    grid-template-rows: repeat(2, minmax(0, 1fr)); /* Dos filas de igual tamaño */
+    grid-template-columns: repeat(
+      2,
+      minmax(0, 1fr)
+    ); /* Dos columnas de igual tamaño */
+    grid-template-rows: repeat(
+      2,
+      minmax(0, 1fr)
+    ); /* Dos filas de igual tamaño */
     justify-content: center;
     gap: 18px;
     margin-top: 50px;
@@ -113,13 +131,19 @@
     display: block;
     padding: 10px 50px;
     border-radius: 5px;
-    background: #04534e;
+    background: #0c8489;
     margin-bottom: 114px;
     color: #fff;
     font-size: 24px;
     font-family: Inter;
     font-weight: 700;
     border: none;
+    cursor: pointer;
+  }
+
+  .boton:hover {
+    background: #000c25;
+    color: #fff;
   }
 
   .texto {
@@ -132,79 +156,8 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 768px){
-  .contenedorPrincipal {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 100px;
-    margin-top: 141px;
-  }
-  .contenedorSecundario {
-    background-image: url(../../assets/img/caracteristicasBackground.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-  }
 
-  .contenedor {
-    max-width: 100%;
-    padding: 60px 15px;
-    gap: 25px;
-  }
-
-  .caracteristicasStock {
-    height: 80%;
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .copy {
-    color: #016848;
-    font-size: 32px;
-    font-family: "Montserrat";
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-  }
-
-  .opciones {
-    display: grid; /* Usar grid layout en lugar de flexbox */
-    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Dos columnas de igual tamaño */
-    grid-template-rows: repeat(2, minmax(0, 1fr)); /* Dos filas de igual tamaño */
-    justify-content: center;
-    gap: 18px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-
-  .boton {
-    margin: auto;
-    display: block;
-    padding: 10px 50px;
-    border-radius: 5px;
-    background: #04534e;
-    margin-bottom: 114px;
-    color: #fff;
-    font-size: 24px;
-    font-family: Inter;
-    font-weight: 700;
-    border: none;
-  }
-
-  .texto {
-    width: 95.87%;
-    margin: auto;
-    color: #17003b;
-    text-align: center;
-    font-size: 24px;
-    font-family: "Montserrat";
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media (max-width: 767px) {
   .contenedorPrincipal {
     margin: 0;
     padding: 0;
@@ -230,7 +183,7 @@
   .caracteristicasStock {
     height: 80%;
     width: 80%;
-    display: block; /* Para que el margen automático funcione correctamente */
+    display: block;
     margin: 0 auto;
   }
 
@@ -247,14 +200,14 @@
 
   .opciones {
     display: flex;
-  gap: 150px;
-  margin-top: 110px;
-  margin-bottom: 110px;
-  flex-basis: calc(50% - 15px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    gap: 150px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    flex-basis: calc(50% - 15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .boton {
@@ -262,21 +215,29 @@
     display: block;
     padding: 10px 50px;
     border-radius: 5px;
-    background: #04534e;
+    background: #0c8489;
     margin-bottom: 114px;
     color: #fff;
     font-size: 24px;
     font-family: Inter;
     font-weight: 700;
     border: none;
+    cursor: pointer;
   }
 
+  .boton:hover {
+    background: #000c25;
+    color: #fff;
+  }
+
+
   .texto {
-    width: 95.87%;
-    margin: auto;
-    color: #17003b;
-    text-align: center;
-    font-size: 24px;
-    font-family: "Montserrat";
+    color: #0C8489;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
   }
 }

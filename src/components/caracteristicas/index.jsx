@@ -37,7 +37,7 @@ const Carateristicas = () => {
           <CaracteristicasOpciones icon={starIcon} name={"Experiencia"} />
         </span>
       </div>
-      <button className={style.boton}>Descubre nuestros servicios</button>
+      <button className={style.boton}>Conoce nuestros servicios</button>
       <p className={style.texto}>
         Sea que estés buscando mejorar tu eficiencia, expandir tu alcance,
         innovar en tu industria o simplemente mejorar tus operaciones actuales,
