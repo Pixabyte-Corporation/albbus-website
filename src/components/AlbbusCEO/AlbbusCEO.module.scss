@@ -1,0 +1,153 @@
+.module1 {
+    background-image: url('../../assets/img/VectorAImage2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 10vw;
+    background-color: white;
+    display: flex;
+    height: auto;
+    margin: 0;
+    justify-content: space-between;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    align-items: center;
+
+
+}
+
+.AvectorContainer {
+    display: none;
+}
+
+.ceoCont {
+    margin: 0;
+    padding: 0;
+    width: 430px;
+    height: 598.464px;
+}
+
+.textCont {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    max-width: 60vw;
+
+
+}
+
+.textCont p {
+    color: #17003B;
+    font-size: 2.25em;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.blueSpan {
+    color: #04534E;
+    font-weight: 700;
+}
+
+.enText {
+    color: #17003B;
+    font-weight: 600;
+    font-size: 2em;
+    display: flex;
+    font-family: Inter;
+    align-items: baseline;
+
+}
+
+.albbusCont {
+    margin-left: .8em;
+    width: auto;
+    display: flex;
+    align-items: baseline;
+    column-gap: 2vw;
+
+}
+
+
+.contactBtn {
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: rgba(12, 132, 137, 1);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    border-radius: .2em;
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+
+
+//tablet
+@media only screen and (max-width: 1300px) {
+    .textCont {
+        max-width: 40%;
+        justify-content: center;
+    }
+}
+
+//mobile
+
+
+@media only screen and (max-width: 800px) {
+    .module1 {
+        height: auto;
+        margin: 15px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        background-image: none;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+
+    .AvectorContainer {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 5%;
+        width: 100%;
+      }
+      
+      .Avector {
+        display: block;
+      }
+
+
+    .albbusCont {
+        width: 150px;
+    }
+
+    .textCont {
+        max-width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .textContSecundary p {
+        color: #17003B;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .ceoCont {
+        display: none;
+    }
+
+    .contactBtn {
+        padding: 10px 20px;
+    }
+}

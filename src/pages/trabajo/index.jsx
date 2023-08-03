@@ -4,6 +4,7 @@ import OurWork from "@/components/ourWork";
 import CardsWork from "@/components/cardsWork";
 import Testimonials from "@/components/testimonials";
 import Footer from "@/components/Footer";
+import AlbbusCEO from "@/components/AlbbusCEO";
 
 export default function Trabajo() {
     return (
@@ -14,6 +15,7 @@ export default function Trabajo() {
           <AlbbusDescription/>
           <CardsWork />
           <Testimonials />
+          <AlbbusCEO/>
           <Footer />
         </main>
       </>
