@@ -32,7 +32,7 @@ export default function AlbbusCEO() {
                         <p className={style.copyCont}>contamos con los recursos y el compromiso para <span className={style.blueSpan}>resolver</span> todas tus <span className={style.blueSpan}>necesidades.</span></p>
                     </div>
 
-                    <a href="/#contactanos" className={style.contactBtn}>Contáctanos</a>
+                    <Link href="/#contactanos" className={style.contactBtn}>Contáctanos</Link>
 
                 </div>
                 <div className={style.ceoCont}>
