@@ -20,6 +20,14 @@
     gap: 30px;
   }
 
+  .copymobile {
+    display: none;
+  }
+
+  .copymobilebold {
+    display: none;
+  }
+
   .copy {
     color: #000c25;
     font-family: Montserrat;
@@ -60,7 +68,7 @@
   .texto {
     width: 95.87%;
     margin: auto;
-    color: #061E22;
+    color: #061e22;
     text-align: center;
     font-family: Montserrat;
     font-size: 36px;
@@ -90,6 +98,14 @@
     gap: 25px;
   }
 
+  .copymobile {
+    display: none;
+  }
+
+  .copymobilebold {
+    display: none;
+  }
+
   .caracteristicasStock {
     height: 80%;
     width: 80%;
@@ -111,15 +127,9 @@
   }
 
   .opciones {
-    display: grid; /* Usar grid layout en lugar de flexbox */
-    grid-template-columns: repeat(
-      2,
-      minmax(0, 1fr)
-    ); /* Dos columnas de igual tamaño */
-    grid-template-rows: repeat(
-      2,
-      minmax(0, 1fr)
-    ); /* Dos filas de igual tamaño */
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
     justify-content: center;
     gap: 18px;
     margin-top: 50px;
@@ -156,13 +166,12 @@
   }
 }
 
-
 @media (max-width: 767px) {
   .contenedorPrincipal {
     margin: 0;
     padding: 0;
     margin-bottom: 100px;
-    margin-top: 141px;
+    margin-top: 10px;
   }
   .contenedorSecundario {
     background-image: url(../../assets/img/caracteristicasBackground.png);
@@ -187,21 +196,36 @@
     margin: 0 auto;
   }
 
-  .copy {
-    color: #016848;
-    font-size: 24px;
-    font-family: "Montserrat";
+  .copymobile {
+    color: #000c25;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .copymobilebold {
+    color: #000c25;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .copy {
+    display: none;
   }
 
   .opciones {
     display: flex;
     gap: 150px;
-    margin-top: 110px;
+    margin-top: 60px;
     margin-bottom: 110px;
     flex-basis: calc(50% - 15px);
     display: flex;
@@ -211,7 +235,7 @@
   }
 
   .boton {
-    margin: auto;
+    margin: 0px auto;
     display: block;
     padding: 10px 50px;
     border-radius: 5px;
@@ -230,14 +254,17 @@
     color: #fff;
   }
 
-
   .texto {
-    color: #0C8489;
-text-align: center;
-font-family: Montserrat;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    color: #0c8489;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 }

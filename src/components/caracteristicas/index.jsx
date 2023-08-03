@@ -16,7 +16,19 @@ const Carateristicas = () => {
       <div className={style.contenedorSecundario}>
         <div className={style.contenedor}>
           <div className={style.caracteristicasStock}>
-          <Image src={caracteristicasStock} alt="Stock1" title="Stock1" className={style.caracteristicasStock} />
+            <h3 className={style.copymobile}>
+              ¿Te esfuerzas en mantener tu negocio al día en un mundo que cambia
+              rápidamente?
+            </h3>
+            <h3 className={style.copymobilebold}>
+              Nosotros nos encargamos de esa parte.
+            </h3>
+            <Image
+              src={caracteristicasStock}
+              alt="Stock1"
+              title="Stock1"
+              className={style.caracteristicasStock}
+            />
           </div>
           <h3 className={style.copy}>
             ¿Te esfuerzas en mantener tu negocio al día en un mundo que cambia
