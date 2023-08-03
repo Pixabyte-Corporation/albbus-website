@@ -7,9 +7,6 @@ export default function CardsWork() {
     <section className={style.container}>
       <p className={style.title}>Toma el control total de tus desarrollos</p>
       <Cards />
-      <button type="submit" className={style.btnQuote}>
-        Cotizar ahora
-      </button>
     </section>
   );
 }

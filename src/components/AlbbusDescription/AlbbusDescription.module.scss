@@ -1,235 +1,42 @@
-.module1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(1, 11, 33, 1))
-        /* rgba(0, 0, 0, 1) */
-    ;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-}
 
-.aVector {
-    width: 30em;
-}
-
-.ceoCont {
-    width: 30em;
-    height: 40em;
-}
-
-.textCont {
-    max-width: 40vw;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin-left: 23em;
-
-}
-
-.textCont p {
-    color: rgba(255, 255, 255, 1);
-    font-size: 2.25em;
-    font-family: Inter;
-    font-weight: 500;
-}
-
-.blueSpan {
-    color: rgba(48, 194, 220, 1);
-    font-weight: 700;
-}
-
-.enText {
-    color: rgba(255, 255, 255, 1);
-    font-weight: 600;
-    font-size: 4em;
-    display: flex;
-    font-family: Inter;
-}
-
-.albbusCont {
-    margin-left: .8em;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-
-}
 
 .module2 {
     background-image: url(../../assets/img/albbusBackground.png);
-    height: 60vh;
+    height: 432px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .module2textCont {
-    font-size: 1.5em;
+    font-size: 24px;
     color: rgba(255, 255, 255, 1);
     font-weight: 500;
     font-family: Inter;
     text-align: justify;
-    width: 50%;
-    margin-left: 2.5em;
-    margin-bottom: .2em;
+    width: 55%;
+    margin-left: 60px;
 }
 
-.module2text2 {
-    margin-top: 1.5em;
-}
 
-.contactBtn {
-    width: 40%;
-    height: 1.9em;
-    background-color: rgba(12, 132, 137, 1);
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.5em;
-    border: none;
-    border-radius: .2em;
-    margin-top: 2.5em;
-    margin-right: 5em;
-    text-align: center;
-    margin-left: 11em;
-}
+
 
 
 
 //tablet
 @media only screen and (max-width: 1282px) {
-    .module1 {
-        padding-bottom: 5vh;
-        position: static;
-        padding-top: 10vh;
-        flex-wrap: nowrap;
-        justify-content: center;
-        flex-direction: column-reverse;
-        height: auto;
-
-    }
-
-    .aVector {
-        display: none;
-    }
-
-    .enText {
-        justify-content: center;
-    }
-
-    .textCont {
-        position: static;
-        text-align: center;
-        margin: auto;
-        justify-content: center;
-        margin-top: 10vh;
-        max-width: 80vw;
-    }
-
-    .copyCont {
-        justify-content: center;
-        width: 100%;
-
-    }
-
-    .ceoCont {
-        position: static;
-        background-image: url(../../assets/img/VectorAImage.png);
-        background-repeat: no-repeat;
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .contactBtn {
-        margin: auto;
-        min-width: 25vh;
-        max-width: 40vh;
-        min-height: 5vh;
-        margin-top: 5vh;
-        font-size: 3vh;
-    }
-
-    .module2 {
-        margin: auto;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 50vh;
-    }
-
-    .module2textCont {
-        margin: auto;
-        text-align: justify;
-        width: 75%;
-        font-size: 2.3vh;
-        padding: 5px;
-        height: auto;
-    }
-
-}
-
-//mobile
+   .module2{
+    height: auto;
+    justify-content: center;
+   
+   }
+   .module2textCont{
+    padding: 10%;
+    width: 85%;
+    text-align: left;
+   }
 
 
-@media only screen and (max-width: 501px) {
-
-    .module2{
-        height: auto;
-        width: 100%;
-        
-    }
-
-    .module2textCont > p{
-        height: auto;
-        overflow: visible;
-        width: 100%;
-        white-space: normal;
-        font-size: 2vh;
-    }
-    .module2text2{
-        height: auto;
-        width: 100%;
-        white-space: normal;
-        font-size: 2vh;
-    }
-    
-}
-
-
-
-@media only screen and (max-width: 385px){
-    .module2textCont > p{
-        
-        font-size: 1.9vh;
-    }
-}
-
-@media only screen and (max-width: 325px){
-    .enText{
-        font-size:15vw ;
-    }
-
-    .albbusCont{
-        margin-left: .2em;
-    }
-
-    .copyCont {
-        font-size: 10vw !important;
-    }
-
-    .module2textCont > p{
-        
-        font-size: 1.6vh;
-    }
-
-    .contactBtn {
-        width: 100%;
-        min-width: 1vh;
-        font-size: 10vw;
-       
-    }
 }
