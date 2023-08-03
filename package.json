@@ -17,5 +17,8 @@
     "react-dom": "18.2.0",
     "react-intl-tel-input-2": "^0.1.1",
     "sass": "^1.63.6"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
   }
 }
