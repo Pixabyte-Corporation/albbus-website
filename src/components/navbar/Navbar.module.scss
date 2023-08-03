@@ -1,9 +1,15 @@
 @media (min-width: 1200px) {
+  .header {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    transition-duration: 1.5s;
+  }
+
   .position {
     display: none;
   }
 
-  .noNav{
+  .noNav {
     display: none;
     visibility: hidden;
   }
@@ -13,7 +19,7 @@
     visibility: hidden;
   }
 
-  .menuDesktop{
+  .menuDesktop {
     display: flex;
   }
 
@@ -41,7 +47,6 @@
     transform: translateY(-50%);
 
     display: flex;
-    // justify-content: space-between;
     justify-content: flex-end;
     align-items: center;
 
@@ -49,9 +54,9 @@
   }
 
   .aLink {
-    margin-left: 30px; //delete in the original page
+    margin-right: 60px;
 
-    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
@@ -60,30 +65,57 @@
     cursor: default;
   }
 
-  .btnQuote {
-    width: 137px;
-    height: 44px;
+  .aLinkBtn {
+    width: 140px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border: 1px solid #91ddd2;
     border-radius: 10px;
     background: none;
 
-    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 300;
+    color: #91ddd2;
     text-decoration: none;
-    color: #8cdedc;
+
+    cursor: default;
+  }
+
+  .aLinkBtn:hover{
+    color: #000000;
+
+    background: rgba(140, 222, 220, 1);
+  }
+
+  .headerTwo {
+    position: fixed;
+    background: #013748d1;
+    backdrop-filter: blur(20px);
+    transition-duration: 1.5s;
   }
 }
 
 @media (min-width: 769px) and (max-width: 1199px) {
-  .noNav {
-    display: none;
+  .header {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    transition-duration: 1.5s;
   }
 
-  .menuDesktop{
+  .noNav {
+    display: none;
+    backdrop-filter: blur(20px);
+  }
+
+  .menuDesktop {
     display: none;
     visibility: hidden;
+    backdrop-filter: blur(20px);
   }
 
   .nav {
@@ -92,11 +124,12 @@
 
     display: flex;
 
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 13vh;
     right: 0;
 
     background: #013748d1;
+    backdrop-filter: blur(20px);
 
     z-index: 10;
   }
@@ -129,6 +162,7 @@
     height: 100%;
 
     padding: 0;
+    fill-opacity: blur(20px);
 
     display: flex;
     flex-direction: column;
@@ -157,25 +191,54 @@
     cursor: default;
   }
 
-  .btnQuote {
-    width: 137px;
-    height: 44px;
+  .aLinkBtn {
+    width: 140px;
+    height: 45px;
+
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border: 1px solid #91ddd2;
     border-radius: 10px;
     background: none;
 
-    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 300;
+    color: #91ddd2;
     text-decoration: none;
-    color: #8cdedc;
+
+    cursor: default;
+  }
+
+  .aLinkBtn:hover{
+    color: #000000;
+
+    background: rgba(140, 222, 220, 1);
+  }
+
+  .headerTwo {
+    position: fixed;
+    background: #013748d1;
+    backdrop-filter: blur(20px);
+    transition-duration: 1.5s;
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  .header {
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    transition-duration: 1.5s;
+    backdrop-filter: blur(20px);
+  }
+
   .noNav {
     display: none;
+    backdrop-filter: blur(20px);
   }
 
   .nav {
@@ -184,18 +247,20 @@
 
     display: flex;
 
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 13vh;
     right: 0;
 
     background: #013748d1;
+    backdrop-filter: blur(20px);
 
     z-index: 10;
   }
 
-  .menuDesktop{
+  .menuDesktop {
     display: none;
     visibility: hidden;
+    backdrop-filter: blur(20px);
   }
 
   .position {
@@ -256,18 +321,38 @@
     cursor: default;
   }
 
-  .btnQuote {
-    width: 137px;
-    height: 44px;
+  .aLinkBtn {
+    width: 140px;
+    height: 45px;
+
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     border: 1px solid #91ddd2;
     border-radius: 10px;
     background: none;
 
-    font-family: "Inter";
+    font-family: "Montserrat";
     font-size: 20px;
     font-weight: 300;
+    color: #91ddd2;
     text-decoration: none;
-    color: #8cdedc;
+
+    cursor: default;
+  }
+
+  .aLinkBtn:hover{
+    color: #000000;
+
+    background: rgba(140, 222, 220, 1);
+  }
+
+  .headerTwo {
+    position: fixed;
+    background: #013748d1;
+    transition-duration: 1.5s;
   }
 }

@@ -1,150 +1,139 @@
 @media (min-width: 1200px) {
   .descriptionCont {
-    display: grid;
-    grid-template-columns: 55vw 45vw;
-    grid-template-rows: 70vh 17.5vh;
+    width: 100%;
+    height: 400px;
+
+    display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
   }
-  .create {
-    display: flex;
-    margin-left: 6em;
-    margin-right: 4em;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    font-size: 3em;
+
+  .container{
     width: 100%;
+
+    display: flex;
+  }
+
+  .create {
+    width: 55%;
     height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
-    justify-content: center;
-    color: #17003b;
+
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(23, 0, 59, 1);
   }
   .albbusCont {
-    display: flex;
+    margin-top: 20px;
   }
-  .solutions {
-    grid-column: 1/3;
-    color: #17003b;
-    font-size: 1.75em;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    font-style: italic;
-  }
+
   .letterCont {
-    margin-right: 0.45em;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1199px) {
-  .descriptionCont {
-    width: 100%;
-
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr 1fr;
-
-    margin-bottom: -300px;
-  }
-
-  .create {
-    width: 90%;
-
-    grid-row: 2;
-
-    margin: 50px 0 50px 10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-
-    font-size: 3em;
-    color: #17003b;
-
-  }
-
-  .albbusCont {
-    display: flex;
-    margin: 10px 20px 50px auto;
+    margin-right: 0.5em;
   }
 
   .image {
-    width: 50%;
-    display: flex;
-    margin: 20px auto -50px auto;
+    width: 460px;
   }
 
-  .solutions {
-    margin-left: 10px;
-    color: #17003b;
-    font-size: 1.75em;
+  .albbusContPhone {
+    display: none;
+  }
+}
+
+@media (min-width: 768.99px) and (max-width: 1199.99px) {
+  .descriptionCont {
+    width: 95%;
+    height: 350px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .create {
+    width: 55%;
+    height: 100%;
+
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    width: 90%;
-    height: auto;
-    font-style: italic;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(23, 0, 59, 1);
   }
+  .albbusCont {
+    margin-top: 20px;
+  }
+
   .letterCont {
-    margin-right: 0.45em;
+    margin-right: 0.5em;
+  }
+
+  .image {
+    width: 400px;
+  }
+
+  .albbusContPhone {
+    display: none;
   }
 }
 
 @media (max-width: 768px) {
   .descriptionCont {
     width: 100%;
-    height: 1000px;
+    height: 400px;
 
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr 1fr;
-
-    margin-bottom: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .create {
     width: 90%;
 
-    grid-row: 2;
-
-    margin: 50px 0 50px 10px;
+    margin-top: 10px;
 
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: left;
 
-    font-size: 3em;
-    color: #17003b;
-
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(23, 0, 59, 1);
   }
 
-  .albbusCont {
-    display: flex;
-    margin: 10px 20px 50px auto;
+  .albbusContPhone {
+    width: 180px;
+
+    margin-left: 15px;
+
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .albbusCont{
+    display: none;
+  }
+
+  .letterCont {
+    margin-right: 0.3em;
   }
 
   .image {
-    width: 80%;
-    display: flex;
-    margin: 20px auto -50px auto;
-  }
-
-  .solutions {
-    margin-left: 10px;
-    color: #17003b;
-    font-size: 1.75em;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    width: 90%;
-    height: auto;
-    font-style: italic;
-  }
-  .letterCont {
-    margin-right: 0.45em;
+    width: 280px;
   }
 }

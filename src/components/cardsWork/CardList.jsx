@@ -11,7 +11,7 @@ const CardList = [
     alt: "Robotic Process Automation",
     title: "Robotic Process Automation",
     description:
-      "Identificamos dónde la automatización es necesaria y desarrollamos plataformas de RPA de alta calidad para implementar soluciones eficientes y efectivas.",
+      "Identificamos dónde la automatización es necesaria y desarrollamos plataformas de RPA para implementar soluciones eficientes y efectivas.",
   },
   {
     src: two,
@@ -25,7 +25,7 @@ const CardList = [
     alt: "Business Intelligence",
     title: "Business Intelligence",
     description:
-      "Recopilamos, análizamos datos e identificamos patrones para la toma de decisiones y automatización de procesos.",
+      "Recopilamos, analizamos datos e identificamos patrones para la toma de decisiones y automatización de procesos.",
   },
   {
     src: four,
@@ -39,7 +39,7 @@ const CardList = [
     alt: "Artificial Intelligence",
     title: "Artificial Intelligence",
     description:
-      "Desarrollamos productos más avanzados y sofisticados al aprovechar el aprendizaje automático. Podemos utilizar AI para mejorar la calidad del software.",
+      "Desarrollamos productos sofisticados al aprovechar el aprendizaje automático, utilizando AI para mejorar la calidad del software.",
   },
   {
     src: six,
