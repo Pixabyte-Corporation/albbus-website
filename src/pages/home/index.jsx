@@ -16,7 +16,7 @@ export default function Home() {
         <Description />
         <Carateristicas />
         <Contact />
-        <Footer />
+        <Footer isWorkPage={false} />
       </main>
     </>
   );

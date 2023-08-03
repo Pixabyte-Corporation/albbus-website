@@ -12,7 +12,7 @@ export default function Trabajo() {
           <OurWork/>
           <AlbbusDescription/>
           <CardsWork />
-          <Footer />
+          <Footer isWorkPage={true} />
         </main>
       </>
     );
