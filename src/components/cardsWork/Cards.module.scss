@@ -1,7 +1,8 @@
 .cardsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  column-gap: 80px;
+  row-gap: 100px;
   margin-bottom: 9em;
 }
 
@@ -41,13 +42,22 @@
     width: 85%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1258px) {
   .cardsContainer {
     grid-template-columns: 1fr 1fr ;
   }   
 }
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 840px) {
   .cardsContainer {
     grid-template-columns: 1fr;
+    row-gap: 40px;
   }   
+}
+
+@media screen and (max-width: 400px) {
+
+  .container{
+    margin: auto;
+    width: 75%;
+  }
 }
