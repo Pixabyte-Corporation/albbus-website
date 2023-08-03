@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from "next/link";
 import logotype from '@/assets/img/logotype.svg';
 import iconlinkedin from '@/assets/icons/icon-linkedin.png';
 import icontwitter from '@/assets/icons/icon-twitter.png';
