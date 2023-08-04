@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import style from "./Formcontact.module.scss";
-import lada from "@/assets/icons/mexico.svg";
+import PhoneNumberInput from "./Phonecountry";
+
+
 
 export default function Formcontact() {
   return (
@@ -56,13 +57,7 @@ export default function Formcontact() {
       <p className={style.num}>Número Celular</p>
       <div className={style.inputRow}>
         <span className={style.Inputlada}>
-        <span className={style.imagespan}></span>
-          <input className={style.input3} type="tel" pattern="[0-9]+" placeholder="+52"  />
-          <input
-            className={style.input2}
-            type="text"
-            placeholder="Número de contacto"
-          />
+        <PhoneNumberInput/>
         </span>
       </div>
       </form>
