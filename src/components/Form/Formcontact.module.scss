@@ -24,15 +24,16 @@
     font-size: 24px;
     font-family: Montserrat;
     font-weight: 500;
-    padding: 20px 200px 15px 0;
+    padding: 30px 200px 12px 0px;
   }
 
   .line {
     width: 90%;
-    height: 0px;
-    color: rgba(140, 222, 220, 0.5019607843);
+    height: 1px; /* Ajusta el grosor de la línea según tus necesidades */
+    background-color: #629a9b; /* Color de la línea en formato hexadecimal */
     margin-left: 22px;
     margin-bottom: 10px;
+    border: none;
   }
 
   .inputform {
@@ -40,8 +41,8 @@
     grid-template-columns: 1fr 1fr; /* Dos columnas con igual ancho */
     gap: 0px;
     margin-bottom: 15px;
-    margin-right: 20px;
-    margin-left: 30px;
+    margin-right: 20px; 
+    margin-left: 35px;
   }
 
   .column {
@@ -58,7 +59,7 @@
     font-weight: 500;
     line-height: normal;
     margin-bottom: 7px;
-    margin-left: 30px;
+    margin-left: 35px;
   }
 
   .column p {
@@ -72,12 +73,12 @@
   .input1 {
     padding: 10px;
     box-sizing: border-box;
-    width: 358px;
+    width: 350px;
     height: 55px;
     border-radius: 5px;
     outline: none;
     flex-shrink: 0;
-    margin-left: 30px;
+    margin-left: 35px;
     margin-bottom: 14px;
     border: none;
   }
@@ -85,7 +86,7 @@
   .input {
     padding: 10px;
     box-sizing: border-box;
-    width: 130%;
+    width: 128%;
     border-radius: 5px;
     outline: none;
     border: none;
@@ -94,7 +95,7 @@
   .input2 {
     padding: 10px;
     box-sizing: border-box;
-    width: 69%;
+    width: 65%;
     height: 35px;
     flex-shrink: 0;
     border-radius: 3px;
@@ -121,7 +122,7 @@
     width: 3%;
     height: 35px;
     flex-shrink: 0;
-    margin-left: 30px;
+    margin-left: 35px;
     border-radius: 0px 0px 0px 5px;
     border: 0;
     outline: none;
@@ -135,6 +136,7 @@
     background-repeat: no-repeat;
   }
 
+  
   .input::placeholder {
     font-family: Montserrat;
     font-weight: 200;
@@ -142,17 +144,18 @@
 
   .input3::placeholder {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 200;
   }
 
   .input2::placeholder {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 200;
   }
+
 
   .enviar {
     display: flex;
-    width: 355px;
+    width: 350px;
     padding: 10px 80px;
     justify-content: center;
     align-items: center;
@@ -198,7 +201,7 @@
     font-size: 14px;
     font-family: Montserrat;
     font-weight: 500;
-    margin-left: 30px;
+    margin-left: 35px;
     margin-bottom: 7px;
   }
 }
@@ -234,13 +237,16 @@
     padding: 20px 400px 15px 0;
   }
 
+ 
   .line {
     width: 90%;
-    height: 0px;
-    color: rgba(140, 222, 220, 0.5019607843);
+    height: 1px; 
+    background-color: #629a9b; 
     margin-left: 22px;
     margin-bottom: 10px;
+    border: none;
   }
+
 
   .inputform {
     display: grid;
@@ -342,6 +348,7 @@
     background-repeat: no-repeat;
   }
 
+ 
   .input::placeholder {
     font-family: Montserrat;
     font-weight: 200;
@@ -349,13 +356,14 @@
 
   .input3::placeholder {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 200;
   }
 
   .input2::placeholder {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 200;
   }
+
 
   .enviar {
     display: flex;
@@ -446,11 +454,13 @@
 
   .line {
     width: 90%;
-    height: 0px;
-    color: rgba(140, 222, 220, 0.5019607843);
-    margin-left: 16px;
+    height: 1px; 
+    background-color: #629a9b; 
+    margin-left: 22px;
     margin-bottom: 10px;
+    border: none;
   }
+
 
   .description {
     color: #fff;
@@ -547,12 +557,12 @@
 
   .input3::placeholder {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 200;
   }
 
   .input2::placeholder {
     font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 200;
   }
 
   .enviar {
