@@ -1,0 +1,88 @@
+@media (min-width: 1200px) {
+.react-tel-input {
+
+  margin-left: 33px;
+
+}
+
+.react-tel-input .form-control{
+
+  width: 354px;
+  height: 35px;
+  border-radius: 5px;
+  background: #FFF; 
+}
+
+.react-tel-input .selected-flag {
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.react-tel-input .flag-dropdown {
+ 
+  background-color: #f0f0f0;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .react-tel-input {
+
+    margin-left: 30px;
+  
+  }
+  
+  .react-tel-input .form-control{
+  
+    width: 554px;
+    height: 35px;
+  }
+  
+  .react-tel-input .flag-dropdown {
+   
+    background-color: #f0f0f0;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+
+  .react-tel-input {
+
+    margin-left: 18px;
+
+  }
+  
+  .react-tel-input .form-control{
+  
+    width: 269px;
+    height: 35px;
+  }
+
+  .react-tel-input::placeholder {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+
+  .react-tel-input::-ms-value {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+  
+  .react-tel-input .flag-dropdown {
+   
+    background-color: #f0f0f0;
+  }
+
+
+}
+
