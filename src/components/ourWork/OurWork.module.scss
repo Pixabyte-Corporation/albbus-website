@@ -1,12 +1,12 @@
 .mainContainer {
   margin: 0;
   padding: 0;
-  height: 900px;
+  height: 930px;
 }
 
 .videobg {
   width: 1920px;
-  max-height: 900px;
+  max-height: 930px;
   overflow: hidden;
   position: relative;
   object-fit: contain;
@@ -22,7 +22,7 @@
 
 .overlayContainer {
   width: auto;
-  max-height: 900px;
+  max-height: 930px;
   padding-top: 10%;
   position: absolute;
   top: 0;
@@ -104,9 +104,18 @@
 
 @media only screen and (max-width: 1282px) {
 
+  .mainContainer{
+    height: 800px;
+  }
+  .videobg{
+    max-height: 800px;
+
+  }
 
 
   .overlayContainer {
+    max-height: 800px;
+
     margin: auto;
     text-align: center;
     width: 100%;
@@ -128,8 +137,7 @@
 
   .text {
     font-size: 35px;
-    width: 80%;
-    margin-bottom: 15%;
+    width: 89%;
   }
 
 
@@ -138,6 +146,7 @@
     filter: blur(0px);
     color: #ffffff;
     font-size: 6.812134113890367vw;
+    transition: none;
   }
 
 }
@@ -156,6 +165,7 @@
   .text {
     margin-bottom: 15%;
     font-size: 24px;
+    width: 89%;
   }
 
   .descubre{
@@ -169,9 +179,22 @@
 }
 
 @media only screen and (max-width: 430px) {
+  
   .title {
     margin-top: 35%;
     font-size: 35px;
   }
+
+}
+
+
+@media only screen and (max-width: 300px) {
+  .descubreContainer{
+    width: 15%;
+  }
+  .descubre{
+    font-size: 11vw;
+  }
+  
 
 }
