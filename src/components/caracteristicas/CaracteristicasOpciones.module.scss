@@ -1,0 +1,41 @@
+@media screen and (min-width: 1200px) {
+.opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    color: #001027;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px){
+  .opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    color: #001027;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    color: #001027;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 700;
+  }
+
+}

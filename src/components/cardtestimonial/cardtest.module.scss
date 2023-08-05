@@ -1,0 +1,84 @@
+.cardtest{
+  border-radius: 10px;
+  border: 1px solid #8cdedc;
+  background: rgba(140, 222, 220, 0.2);
+  backdrop-filter: blur(7.5px);
+  width: 48em;
+  margin-left: 2em;
+  height: 70%;
+}
+
+.textsintax{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+  margin-left: 2.2em;
+  color: #8cdedc;
+  font-size: 1.5em;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.subsintax{
+  color: #2df6fe;
+  font-size: 2em;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: .5em;
+  margin-left: 80%; 
+}
+.rightline{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 100%;
+  top: 35%;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("../../assets/icons/right-line.svg");
+  z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .rightline{
+    display: none;
+  }
+  .cardtest{
+    width: 30em;
+  }
+  .textsintax{
+    margin-top: 1.5em;
+    margin-left: 1em;
+    font-size: 1.1em;
+  }
+  .subsintax{
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 575px) {
+
+  .cardtest{
+    width: 20em;
+  }
+  .textsintax{
+    font-size: 1em;
+    margin-left: 1em;
+    margin-right: .2em;
+  }
+  .subsintax{
+    font-size: 1.2em;
+    margin-top: .2em;
+  }
+}

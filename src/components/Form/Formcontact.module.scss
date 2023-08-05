@@ -1,0 +1,611 @@
+@media (min-width: 1200px) {
+  .containerprincipal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .container {
+    width: 420px;
+    height: 548px;
+    border-radius: 10px;
+    border: 1px solid rgba(140, 222, 220, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    box-sizing: border-box;
+    margin-right: 40px;
+    margin-top: 60px;
+  }
+
+  .title {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 30px 200px 12px 0px;
+  }
+
+  .line {
+    width: 90%;
+    height: 1px; /* Ajusta el grosor de la línea según tus necesidades */
+    background-color: #629a9b; /* Color de la línea en formato hexadecimal */
+    margin-left: 22px;
+    margin-bottom: 10px;
+    border: none;
+  }
+
+  .inputform {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas con igual ancho */
+    gap: 0px;
+    margin-bottom: 15px;
+    margin-right: 20px; 
+    margin-left: 35px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .description {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 7px;
+    margin-left: 35px;
+  }
+
+  .column p {
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .input1 {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 55px;
+    border-radius: 5px;
+    outline: none;
+    flex-shrink: 0;
+    margin-left: 35px;
+    margin-bottom: 14px;
+    border: none;
+  }
+
+  .input {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 128%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+
+  .input2 {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 65%;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    outline: none;
+    border: 1px;
+    background: #ffffff;
+  }
+
+  .input3 {
+    box-sizing: border-box;
+    width: 10%;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 0px;
+    outline: none;
+    border: 1px solid #75757549;
+    background: #fff;
+    border-left: none;
+  }
+
+  .imagespan {
+    padding-left: 35px;
+    box-sizing: border-box;
+    width: 3%;
+    height: 35px;
+    flex-shrink: 0;
+    margin-left: 35px;
+    border-radius: 0px 0px 0px 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid #75757549; /* Cambia el color y el grosor del contorno según tus necesidades */
+    box-shadow: none;
+    border-right: none;
+    background: #fff;
+    background-image: url("../../assets/icons/mexico.svg");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  
+  .input::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+  .input3::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+  .input2::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+
+  .enviar {
+    display: flex;
+    width: 350px;
+    padding: 10px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: #011929;
+    background: #011929;
+    color: #fff;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+
+  .enviar:hover {
+    background: #76bff0;
+    color: #fff;
+  }
+
+  .inputRow {
+    display: grid;
+  }
+
+  .Inputlada {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    top: 66%;
+    left: 35px;
+    transform: translateY(-50%);
+    background: none;
+  }
+
+  .num {
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-bottom: 7px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .containerprincipal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .container {
+    width: 618px;
+    height: 476px;
+    border-radius: 10px;
+    border: 1px solid rgba(140, 222, 220, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .title {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 20px 400px 15px 0;
+  }
+
+ 
+  .line {
+    width: 90%;
+    height: 1px; 
+    background-color: #629a9b; 
+    margin-left: 22px;
+    margin-bottom: 10px;
+    border: none;
+  }
+
+
+  .inputform {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas con igual ancho */
+    gap: 0px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 30px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .description {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 7px;
+    margin-left: 30px;
+  }
+
+  .column p {
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .input1 {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 55px;
+    border-radius: 5px;
+    outline: none;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-bottom: 14px;
+    border: none;
+  }
+
+  .input {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 118%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+
+  .input2 {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 84%;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    outline: none;
+    border: 1px;
+    background: #ffffff;
+  }
+
+  .input3 {
+    box-sizing: border-box;
+    width: 10%;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 0px;
+    outline: none;
+    border: 1px solid #75757549;
+    background: #fff;
+    border-left: none;
+  }
+
+  .imagespan {
+    padding-left: 35px;
+    box-sizing: border-box;
+    width: 3%;
+    height: 35px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    border-radius: 0px 0px 0px 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid #75757549; /* Cambia el color y el grosor del contorno según tus necesidades */
+    box-shadow: none;
+    border-right: none;
+    background: #fff;
+    background-image: url("../../assets/icons/mexico.svg");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+ 
+  .input::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+  .input3::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+  .input2::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+
+  .enviar {
+    display: flex;
+    width: 92%;
+    padding: 10px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: #011929;
+    background: #011929;
+    color: #fff;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+
+  .enviar:hover {
+    background: #76bff0;
+    color: #fff;
+  }
+
+  .inputRow {
+    display: grid;
+    width: 90%;
+  }
+
+  .Inputlada {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    top: 66%;
+    left: 35px;
+    transform: translateY(-50%);
+    background: none;
+  }
+
+  .num {
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 767px) {
+  .containerprincipal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    
+  }
+  
+
+  .container {
+    max-width: 301px;
+    max-height: 600px;
+    border-radius: 10px;
+    border: 1px solid rgba(140, 222, 220, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .title {
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 20px 250px 15px 20px;
+  }
+
+  .line {
+    width: 90%;
+    height: 1px; 
+    background-color: #629a9b; 
+    margin-left: 22px;
+    margin-bottom: 10px;
+    border: none;
+  }
+
+
+  .description {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 7px;
+    margin-left: 16px;
+  }
+
+  .column p {
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-left: 16px;
+  }
+
+  .input1 {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 269px;
+    height: 55px;
+    border-radius: 5px;
+    outline: none;
+    flex-shrink: 0;
+    margin-left: 16px;
+    margin-bottom: 14px;
+    border: none;
+  }
+
+  .input {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 269px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-left: 16px;
+    margin-bottom: 14px;
+  }
+
+  .input2 {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 76%;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    outline: none;
+    border: 1px;
+    background: #ffffff;
+  }
+
+  .input3 {
+    box-sizing: border-box;
+    width: 10%;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 0px;
+    outline: none;
+    border: 1px solid #75757549;
+    background: #fff;
+    border-left: none;
+  }
+
+  .imagespan {
+    padding-left: 35px;
+    box-sizing: border-box;
+    width: 3%;
+    height: 35px;
+    flex-shrink: 0;
+    margin-left: 16px;
+    border-radius: 0px 0px 0px 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid #75757549; /* Cambia el color y el grosor del contorno según tus necesidades */
+    box-shadow: none;
+    border-right: none;
+    background: #fff;
+    background-image: url("../../assets/icons/mexico.svg");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .input::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+  .input3::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+  .input2::placeholder {
+    font-family: Montserrat;
+    font-weight: 200;
+  }
+
+  .enviar {
+    display: flex;
+    width: 90%;
+    padding: 10px 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: #011929;
+    background: #011929;
+    color: #fff;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .enviar:hover {
+    background: #76bff0;
+    color: #fff;
+  }
+
+  .inputRow {
+    display: grid;
+    width: 90%;
+  }
+
+  .Inputlada {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .num {
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-left: 16px;
+    margin-bottom: 7px;
+  }
+}
