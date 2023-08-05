@@ -2,7 +2,7 @@ import React from "react";
 import "../../app/globals.scss";
 import style from "./Politicas.module.scss";
 import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 export default function Cookies(){
 
