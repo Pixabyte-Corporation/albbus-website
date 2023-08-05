@@ -1,7 +1,7 @@
 "use client";
 import "../../app/globals.scss";
 import style from "./Navbar.module.scss";
-
+import Link from "next/link";
 import Image from "next/image";
 import { Squash as Hamburger } from "hamburger-react";
 import { useEffect, useState } from "react";
