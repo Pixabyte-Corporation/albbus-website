@@ -59,7 +59,7 @@ export default function Navbar() {
         <nav className={style.menuDesktop}>
           <ul className={style.elements}>
             <li className={style.element} onClick={statusMenu}>
-              <Link href="" className={style.aLink}>
+              <Link href="/home" className={style.aLink}>
                 Acerca de
               </Link>
             </li>
