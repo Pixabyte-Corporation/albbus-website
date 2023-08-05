@@ -53,7 +53,7 @@ export default function Aviso(){
                         </li>
                     </ol>
                     <p><b>LIMITANTE</b>. En caso de que no desees que tus datos personales sean utilizados para nuestras Finalidades, podrás comunicarlo por correo electrónico a la siguiente dirección: legal@albbus.com.</p><br></br><br></br>
-                    <p><b>INFORMACIÓN</b>. A efecto de llevar a cabo las Finalidades, Pixabyte podrá recabar los siguientes datos personales y datos personales sensibles (los "Datos Personales") de diversas maneras a través de su sitio en Internet, 
+                    <p><b>INFORMACIÓN</b>. A efecto de llevar a cabo las Finalidades, Pixabyte podrá recabar los siguientes datos personales y datos personales sensibles (los &quot;Datos Personales&quot;) de diversas maneras a través de su sitio en Internet, 
                     https://albbus.com y/o a través de las aplicaciones móviles, plug-ins y/o distintos softwares y/o activaciones de cualquier tipo que Albbus realice directamente o a través de terceros con los que Albbus colabore (“Medios”), 
                     ya sea para mejorar la funcionalidad de las Finalidades o cuestiones publicitarias o de marketing:</p><br></br>
                     <ol className={style.lista2}>

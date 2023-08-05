@@ -37,9 +37,9 @@ export default function Navbar() {
   return (
     <>
       <header className={tipeHeader}>
-        <a href="/home" className={style.container} onClick={statusMenu}>
+        <Link href="/home" className={style.container} onClick={statusMenu}>
           <Image className={style.logo} src={logotype} alt="Albbus" />
-        </a>
+        </Link>
         <div id="hamburguer" className={style.position}>
           <Hamburger
             color="#4FD1C5"
@@ -59,19 +59,19 @@ export default function Navbar() {
         <nav className={style.menuDesktop}>
           <ul className={style.elements}>
             <li className={style.element} onClick={statusMenu}>
-              <a href="" className={style.aLink}>
+              <Link href="" className={style.aLink}>
                 Acerca de
-              </a>
+              </Link>
             </li>
             <li className={style.element} onClick={statusMenu}>
-              <a href="/trabajo" className={style.aLink}>
+              <Link href="/trabajo" className={style.aLink}>
                 Nuestro trabajo
-              </a>
+              </Link>
             </li>
             <li className={style.element} onClick={statusMenu}>
-              <a href="home#contactanos" className={style.aLinkBtn}>
+              <Link href="home#contactanos" className={style.aLinkBtn}>
                 Cotizar
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -79,19 +79,19 @@ export default function Navbar() {
       <nav className={menu}>
         <ul className={style.elements}>
           <li className={style.element} onClick={statusMenu}>
-            <a href="" className={style.aLink}>
+            <Link href="" className={style.aLink}>
               Acerca de
-            </a>
+            </Link>
           </li>
           <li className={style.element} onClick={statusMenu}>
-            <a href="/trabajo" className={style.aLink}>
+            <Link href="/trabajo" className={style.aLink}>
               Nuestro trabajo
-            </a>
+            </Link>
           </li>
           <li className={style.element} onClick={statusMenu}>
-            <a href="home#contactanos" className={style.aLinkBtn}>
+            <Link href="home#contactanos" className={style.aLinkBtn}>
               Cotizar
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
