@@ -1,8 +1,32 @@
 "use client";
 import { useState } from "react";
+import axios from "axios"; 
 import style from "./Formcontact.module.scss";
 import PhoneNumberInput from "./Phonecountry";
 
+export default function Formcontact() {
+  const [formData, setFormData] = useState({
+    nombre: '',
+    apellido: '',
+    email: '',
+    empresa: ''
+  });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      
+      const response = await axios.post('URL_DE_TU_API', formData);
+
+    
+      console.log('Respuesta de la solicitud:', response.data);
+    } catch (error) {
+     
+      console.error('Error al realizar la solicitud:', error);
+    }
+  };
+}
 
 
 export default function Formcontact() {
@@ -16,6 +40,7 @@ export default function Formcontact() {
       <input
         className={style.input1}
         type="text"
+        onChange={handleInputChange}
         placeholder=""
       />
       <div className={style.inputform}>
@@ -24,6 +49,7 @@ export default function Formcontact() {
           <input
             className={style.input}
             type="text"
+            onChange={handleInputChange}
             placeholder="Ingresa tu nombre"
           />
         </div>
@@ -32,6 +58,7 @@ export default function Formcontact() {
           <input
             className={style.input}
             type="text"
+            onChange={handleInputChange}
             placeholder="Ingresa tu apellido"
           />
         </div>
@@ -42,6 +69,7 @@ export default function Formcontact() {
           <input
             className={style.input}
             type="text"
+            onChange={handleInputChange}
             placeholder="Ingresa tu nombre"
           />
         </div>
@@ -50,6 +78,7 @@ export default function Formcontact() {
           <input
             className={style.input}
             type="text"
+            onChange={handleInputChange}
             placeholder="Ingresa el nombre"
           />
         </div>
