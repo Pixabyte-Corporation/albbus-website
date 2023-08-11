@@ -1,4 +1,5 @@
 import style from "./AlbbusCEO.module.scss";
+import Link from "next/link";
 import Image from "next/legacy/image";
 import a from "@/assets/img/A-blue.png"
 import l from "@/assets/img/L-blue.png"
@@ -32,7 +33,7 @@ export default function AlbbusCEO() {
                         <p className={style.copyCont}>contamos con los recursos y el compromiso para <span className={style.blueSpan}>resolver</span> todas tus <span className={style.blueSpan}>necesidades.</span></p>
                     </div>
 
-                    <a href="/#contactanos" className={style.contactBtn}>Contáctanos</a>
+                    <Link href="/#contactanos" className={style.contactBtn}>Contáctanos</Link>
 
                 </div>
                 <div className={style.ceoCont}>

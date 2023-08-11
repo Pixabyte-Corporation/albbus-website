@@ -13,7 +13,7 @@ export default function Aviso(){
                 <h1 className={style.titulo}>Politica de Privacidad</h1>
                 <div className={style.contenido}>
                     <h6 className={style.fecha}><b>Fecha de última actualización 27 de julio del 2023.</b></h6>
-                    <p>Para <b>VABRA TECHNOLOGIES S.A. DE C.V.</b> (en lo subsecuente: “Albbus”), la protección de tu información personal es importante, por ello ponemos a tu disposición el siguiente “Aviso de Privacidad” con el objetivo de informarte cómo recabamos y utilizamos tu información. Albbus con domicilio en Andador San Andrés 8, San Andrés Azcapotzalco, Ciudad de México, es una sociedad mercantil legalmente constituida de conformidad con la legislación mexicana, cuya actividad principal es la de <b>proveer soluciones con desarrollo de software a la
+                    <p>Para <b>VABRA TECHNOLOGIES S.A. DE C.V.</b> (en lo subsecuente: &quot;Albbus&quot;), la protección de tu información personal es importante, por ello ponemos a tu disposición el siguiente &quot;Aviso de Privacidad&quot; con el objetivo de informarte cómo recabamos y utilizamos tu información. Albbus con domicilio en Andador San Andrés 8, San Andrés Azcapotzalco, Ciudad de México, es una sociedad mercantil legalmente constituida de conformidad con la legislación mexicana, cuya actividad principal es la de <b>proveer soluciones con desarrollo de software a la
                     medida de las empresas</b>, contribuyendo a la automatización de los procesos de diversas empresas que buscan innovar y/o expandirse, aumentando su eficiencia y utilidad económica.
                     Albbus recaba tus datos personales, por lo que el presente Aviso de Privacidad aplica para todos los productos y/o servicios desarrollados y ofrecidos por Albbus.</p><br></br>
                     <p><b>FINALIDAD</b>. La recolección de la información tiene como principal objetivo ofrecer mejores productos y/o servicios, así como cualquier otra actividad que resulte necesaria para cumplir nuestras obligaciones derivadas de la relación jurídica que generas con Albbus y llevar a cabo nuestras finalidades incluyendo, sin limitar:</p><br></br><br></br>
@@ -53,8 +53,8 @@ export default function Aviso(){
                         </li>
                     </ol>
                     <p><b>LIMITANTE</b>. En caso de que no desees que tus datos personales sean utilizados para nuestras Finalidades, podrás comunicarlo por correo electrónico a la siguiente dirección: legal@albbus.com.</p><br></br><br></br>
-                    <p><b>INFORMACIÓN</b>. A efecto de llevar a cabo las Finalidades, Pixabyte podrá recabar los siguientes datos personales y datos personales sensibles (los "Datos Personales") de diversas maneras a través de su sitio en Internet, 
-                    https://albbus.com y/o a través de las aplicaciones móviles, plug-ins y/o distintos softwares y/o activaciones de cualquier tipo que Albbus realice directamente o a través de terceros con los que Albbus colabore (“Medios”), 
+                    <p><b>INFORMACIÓN</b>. A efecto de llevar a cabo las Finalidades, Pixabyte podrá recabar los siguientes datos personales y datos personales sensibles (los &quot;Datos Personales&quot;) de diversas maneras a través de su sitio en Internet, 
+                    https://albbus.com y/o a través de las aplicaciones móviles, plug-ins y/o distintos softwares y/o activaciones de cualquier tipo que Albbus realice directamente o a través de terceros con los que Albbus colabore (&quot;Medios&quot;), 
                     ya sea para mejorar la funcionalidad de las Finalidades o cuestiones publicitarias o de marketing:</p><br></br>
                     <ol className={style.lista2}>
                         <li>
@@ -130,7 +130,7 @@ export default function Aviso(){
                     tratamiento de los Datos Personales, bajo diversos protocolos de seguridad, a efecto de evitar el acceso no autorizado a tus Datos 
                     Personales y procurar que los mismos sean estrictamente utilizados para los fines descritos en este Aviso de Privacidad.</p><br /><br />
                     <p><b>DERECHOS ARCO</b>. Podrás ejercer, por ti mismo o por medio de un representante legalmente autorizado, los
-                    derechos de acceso, rectificación, cancelación y oposición de tus Datos Personales (los “Derechos ARCO”), para limitar el uso y divulgación de tus Datos Personales, 
+                    derechos de acceso, rectificación, cancelación y oposición de tus Datos Personales (los &quot;Derechos ARCO&quot;), para limitar el uso y divulgación de tus Datos Personales, 
                     así como revocar el consentimiento otorgado para el tratamiento de los mismos. Para ello, tú o tu representante podrán solicitar a Albbus, mediante correo electrónico 
                     a la dirección legal@albbus.com, la entrega de un formato en el que asientes tu decisión de ejercer tus Derechos ARCO, acompañado de la siguiente documentación o información digitalizada:</p><br />
                     <ol className={style.lista4}>
@@ -144,7 +144,7 @@ export default function Aviso(){
                     <p>Albbus se compromete a responder a tu solicitud dentro de los 5 (cinco) días hábiles siguientes a la fecha en que dicha solicitud sea recibida. Se entenderá que la solicitud ha sido recibida 
                     el día en que Albbus acuse de recibo mediante correo electrónico. El plazo podrá ampliarse por 3 (tres) días hábiles según las circunstancias del caso.</p><br /><br />
                     <p>Asimismo, te informamos que puedes iniciar el procedimiento de protección de Derechos ARCO, ante el Instituto Nacional de Transparencia, Acceso a la Información y Protección de 
-                    Datos Personales (el “INAI”), dentro de los 15 días siguientes a la fecha en que Albbus dé respuesta a tu solicitud y dicha respuesta no sea satisfactoria, o bien, si transcurrido el 
+                    Datos Personales (el &quot;INAI&quot;), dentro de los 15 días siguientes a la fecha en que Albbus dé respuesta a tu solicitud y dicha respuesta no sea satisfactoria, o bien, si transcurrido el 
                     término señalado, no diéramos respuesta a tu solicitud.</p><br /><br />
                     <p><b>CAMBIOS</b>. Para efectos de poder brindarte un mejor servicio, nos reservamos el derecho de efectuar, en cualquier momento, modificaciones o actualizaciones al presente Aviso de Privacidad, 
                     para la atención de novedades legislativas o jurisprudenciales, políticas internas, nuevos requerimientos para la prestación u ofrecimiento de nuestros servicios y/o productos y prácticas del mercado. 
