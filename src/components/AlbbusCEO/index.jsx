@@ -9,7 +9,6 @@ import u from "@/assets/img/U-blue.png";
 import s from "@/assets/img/S-blue.png";
 import ceo from "@/assets/img/CEO.png";
 import Avec from "../../assets/img/VectorAImage2.png";
-import Link from "next/link";
 
 export default function AlbbusCEO() {
     return (
