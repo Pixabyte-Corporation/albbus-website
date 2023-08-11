@@ -1,14 +1,15 @@
 import style from "./AlbbusCEO.module.scss";
 import Link from "next/link";
 import Image from "next/legacy/image";
-import a from "@/assets/img/A-blue.png"
-import l from "@/assets/img/L-blue.png"
-import b from "@/assets/img/B-blue.png"
-import b2 from "@/assets/img/B-blue.png"
-import u from "@/assets/img/U-blue.png"
-import s from "@/assets/img/S-blue.png"
-import ceo from "@/assets/img/CEO.png"
-import Avec from "../../assets/img/VectorAImage2.png"
+import a from "@/assets/img/A-blue.png";
+import l from "@/assets/img/L-blue.png";
+import b from "@/assets/img/B-blue.png";
+import b2 from "@/assets/img/B-blue.png";
+import u from "@/assets/img/U-blue.png";
+import s from "@/assets/img/S-blue.png";
+import ceo from "@/assets/img/CEO.png";
+import Avec from "../../assets/img/VectorAImage2.png";
+import Link from "next/link";
 
 export default function AlbbusCEO() {
     return (

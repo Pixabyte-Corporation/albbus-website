@@ -1,6 +1,6 @@
 import "../../app/globals.scss";
-import style from "./Banner.module.scss";
 import Link from "next/link";
+import style from "./Banner.module.scss";
 
 export default function Banner() {
   return (
