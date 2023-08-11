@@ -15,7 +15,7 @@ export default function Banner() {
         </p>
         <Link href="#contactanos" className={style.btnContactUs}>
           Contáctanos
-        </Link >
+        </Link>
       </div>
     </section>
   );

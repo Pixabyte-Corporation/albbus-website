@@ -1,4 +1,5 @@
 import style from "./AlbbusCEO.module.scss";
+import Link from "next/link";
 import Image from "next/legacy/image";
 import a from "@/assets/img/A-blue.png";
 import l from "@/assets/img/L-blue.png";
