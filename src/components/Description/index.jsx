@@ -13,7 +13,7 @@ export default function Description() {
     <section className={style.descriptionCont}>
       <div className={style.create}>
         <div className={style.container}>
-          &quot;Convierte tus ideas en realidad con
+          &quot;Convierte tus ideas en <br/>  realidad con
           <p className={style.albbusContPhone}>
             <span className={style.letterCont}>
               <Image src={a} alt="A" />
@@ -59,7 +59,7 @@ export default function Description() {
         </div>
       </div>
       <div className={style.image}>
-        <Image src={albbus} alt="technologies" />
+        <Image src={albbus} alt="technologies"  className={style.imagestock} />
       </div>
     </section>
   );

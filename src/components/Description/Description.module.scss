@@ -89,6 +89,7 @@
 }
 
 @media (max-width: 768px) {
+  
   .descriptionCont {
     width: 100%;
     height: 400px;
@@ -100,40 +101,51 @@
   }
 
   .create {
-    width: 90%;
-
-    margin-top: 10px;
-
+    width: 90vw;
+    margin: 20px 3.3vw 0 3.1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    color: #17003B;
     font-family: "Montserrat";
     font-weight: 400;
-    font-size: 30px;
-    color: rgba(23, 0, 59, 1);
+    line-height: normal;
+    font-size: 5vw; 
+    font-style: normal;
+   
   }
 
   .albbusContPhone {
-    width: 180px;
-
-    margin-left: 15px;
-
+    width: 30vw; 
+    margin-left: 2vw;
     display: inline-flex;
     justify-content: flex-end;
     align-items: flex-end;
-  }
+}
 
   .albbusCont{
     display: none;
   }
 
   .letterCont {
-    margin-right: 0.3em;
+    margin-right: 0.4em;
   }
 
   .image {
-    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    overflow: hidden;
   }
+
+  .imagestock {
+    height: 80%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+ 
 }
